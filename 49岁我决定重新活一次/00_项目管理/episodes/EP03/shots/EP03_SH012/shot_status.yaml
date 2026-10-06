@@ -1,0 +1,242 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP03
+shot_id: EP03_SH012
+sequence: 12
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP03/02_分镜/EP03_正式分镜表.md
+  path_base: content_root
+  sha256: aacb6b17bf4d5267b22a2319be2191cbd47513f24cc6eba09ab492209f7a3555
+previous_shot_id: EP03_SH011
+next_shot_id: EP03_SH013
+requirements:
+  description: 镜头扫过安静的屋子：垫子、入口左墙行李箱、椅背棕包、旧木桌、开60°的窗与晨光、矮柜。
+  framing: 缓慢环视（横移）
+  planned_duration_s: 4.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: LW-C01
+    expected_visible_features: []
+  scene:
+    scene_id: SC-C
+    state_revision: null
+    story_time: 第二天清晨
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#STORYBOARD
+  source_fields:
+    镜头编号: EP03_12
+    时长: 4s
+    景别: 缓慢环视（横移）
+    画面内容: 镜头扫过安静的屋子：垫子、入口左墙行李箱、椅背棕包、旧木桌、开60°的窗与晨光、矮柜。
+    台词: 旁白：可当我真的只剩下自己的时候……
+    音效: 轻风；安静
+    服装道具: 同上；全部继承道具
+    参考图: 林晚_01_v2（不强制入画）；SC-C_01；SC-B_01
+assets:
+- asset_id: EP03_first_frame_d25932a1a3_f7bda411
+  kind: first_frame
+  path: EP03/03_首帧/EP03_12.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: f7bda41144e70a4f8c44563f90c250dfc76d1f8384df9ffd8b1e7acc1303870e
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 2106671
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP03_first_frame_7cf1f7dd2d_591820d9
+  kind: first_frame
+  path: EP03/03_首帧/EP03_12_v2.png
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 591820d9cd1b90add1f529a3e6cb8bca8c8af4842c2298d6cd064d3af861febf
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 2036904
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP03_video_e46d830713_85c822ad
+  kind: video
+  path: EP03/04_视频镜头/EP03_12_video_v2.mp4
+  path_base: content_root
+  version_label: v2
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 85c822addbe18cb6c26460e8477424a416ccc4247c264fadc0025d9297b3a549
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  - episodes/EP03/episode_status.yaml#FINAL_REPORT
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 10800666
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP03_voice_8c826fb8b4_fa317104
+  kind: voice
+  path: EP03/05_配音/01_正式语音素材/EP03_12_林晚旁白.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: fa317104d64969193bc6c0d9eb30b25a8a716b6cbbc90cae9dc075341462a4e7
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: null
+    height: null
+    fps: null
+    frame_count: null
+    duration_s: 2.979979
+    video_codec: null
+    pixel_format: null
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: pcm_s16le
+  size_bytes: 572200
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: unverified
+- asset_id: EP03_voice_66a29cb600_d6bfa5ec
+  kind: voice
+  path: EP03/05_配音/01_正式语音素材/历史测试资产_F5/EP03_12_林晚旁白.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: d6bfa5ec2b62471971143aa5fc2328a192ae9998777099898bba90f96c956ac3
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical: {}
+  size_bytes: 123040
+  technical_verification: not_measured
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: historical_F5_by_archive
+selected_assets:
+  first_frame:
+    asset_id: null
+    decision_evidence_ids: []
+  video:
+    asset_id: EP03_video_e46d830713_85c822ad
+    decision_evidence_ids:
+    - episodes/EP03/episode_status.yaml#FINAL_REPORT
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP03_video_e46d830713_85c822ad
+  - EP03_voice_8c826fb8b4_fa317104
+  asset_sha256s:
+  - 85c822addbe18cb6c26460e8477424a416ccc4247c264fadc0025d9297b3a549
+  - fa317104d64969193bc6c0d9eb30b25a8a716b6cbbc90cae9dc075341462a4e7
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP03/02_分镜/EP03_正式分镜表.md
+  path_base: content_root
+  locator: EP03_12
+  source_sha256: aacb6b17bf4d5267b22a2319be2191cbd47513f24cc6eba09ab492209f7a3555
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP03_SH012
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  - episodes/EP03/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

@@ -1,0 +1,209 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP04
+shot_id: EP04_SH010
+sequence: 10
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V3_handwritten_mobile
+storyboard_fingerprint:
+  path: EP04/02_分镜/EP04_正式分镜表.md
+  path_base: content_root
+  sha256: 260076e006de0b88740edc096d8df3d42e2dcc7dfd1581bee8f65d48c8d748d8
+previous_shot_id: EP04_SH009
+next_shot_id: EP04_SH011
+requirements:
+  description: 次日。手机亮起，收到拒绝信息「简历暂不符合岗位要求」（文字后期合成）。林晚低头看屏，表情平静——**没有哭，也没有激烈反应**。
+  framing: 近景
+  planned_duration_s: 6.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: LW-C01
+    expected_visible_features: []
+  scene:
+    scene_id: SC-C
+    state_revision: null
+    story_time: 承接EP03同日近午→次日
+    lighting: null
+    anchors: []
+  props:
+  - prop_id: black_phone
+    quantity: 1
+    appearance: 黑色智能手机
+    position: 按分镜
+    state_in: null
+    state_out: null
+    visibility_requirement: 按景别及分镜要求
+  forbidden_props:
+  - 笔记本电脑
+  - 键盘
+  - 鼠标
+  action:
+    start_state: null
+    expected_change: 次日。手机亮起，收到拒绝信息「简历暂不符合岗位要求」（文字后期合成）。林晚低头看屏，表情平静——**没有哭，也没有激烈反应**。
+    end_state: null
+  text:
+    generated_readable_text_allowed: false
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#STORYBOARD
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+  source_fields:
+    镜头编号: EP04_10
+    时长: 6s
+    景别: 近景
+    画面内容: 次日。手机亮起，收到拒绝信息「简历暂不符合岗位要求」（文字后期合成）。林晚低头看屏，表情平静——**没有哭，也没有激烈反应**。
+    台词: —
+    音效: 手机提示音
+    服装道具: LW-C01；手机(手)
+    参考图: 林晚_01_v2；林晚_07_平静；SC-C_01
+  visibility_note: 02-05手部特写鞋/包/箱可画外；01/06/07/11/12按新版首帧报告核对。
+assets:
+- asset_id: EP04_first_frame_0dd6b2e618_9541a361
+  kind: first_frame
+  path: EP04/03_首帧/_stale_旧剧情/EP04_10.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 9541a36190e644150e92257bd436d15bc6b5b717cc8e43997fa567ba1241eeb6
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1072
+    height: 1920
+  size_bytes: 3679438
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP04_first_frame_4291bd4b1d_8fab6e22
+  kind: first_frame
+  path: EP04/03_首帧/EP04_10.png
+  path_base: content_root
+  version_label: null
+  story_revision: V3_handwritten_mobile
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 8fab6e227e390261988fce255d914f31e3fe1c3c795aeb1ced7cdd522615403f
+  presence: present
+  qc_status: needs_recheck
+  adoption: confirmed
+  applicability: current
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+  supersedes_asset_id: null
+  technical:
+    width: 1072
+    height: 1920
+  size_bytes: 2826988
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP04_video_e3c104d410_194c97cb
+  kind: video
+  path: EP04/04_视频镜头/EP04_10_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: V3_handwritten_mobile
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 194c97cb33f8c970f4630d8767fcd7e5b67fbe39aa04baa0db3022652441bf3a
+  presence: present
+  qc_status: needs_recheck
+  adoption: confirmed
+  applicability: current
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  - episodes/EP04/episode_status.yaml#OLD_LOCK
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+  supersedes_asset_id: null
+  technical:
+    width: 1076
+    height: 1924
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 6591420
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+selected_assets:
+  first_frame:
+    asset_id: EP04_first_frame_4291bd4b1d_8fab6e22
+    decision_evidence_ids:
+    - episodes/EP04/episode_status.yaml#S3_REPORT
+  video:
+    asset_id: EP04_video_e3c104d410_194c97cb
+    decision_evidence_ids:
+    - episodes/EP04/episode_status.yaml#S3_REPORT
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP04_video_e3c104d410_194c97cb
+  asset_sha256s:
+  - 194c97cb33f8c970f4630d8767fcd7e5b67fbe39aa04baa0db3022652441bf3a
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues:
+- id: EP04_SH010_LIGHT
+  severity: review
+  scope: EP04_SH010
+  description: 新版报告保留光线不变指令；10→11接点需按当前视频复核，未自动调色
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+  status: open
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP04/02_分镜/EP04_正式分镜表.md
+  path_base: content_root
+  locator: EP04_10
+  source_sha256: 260076e006de0b88740edc096d8df3d42e2dcc7dfd1581bee8f65d48c8d748d8
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP04_SH010
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  - episodes/EP04/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

@@ -1,0 +1,454 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP01
+shot_id: EP01_SH007
+sequence: 7
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+previous_shot_id: EP01_SH006
+next_shot_id: EP01_SH008
+requirements:
+  description: 林晚背好包，拉着一个行李箱搬离。
+  framing: 中景
+  planned_duration_s: 5.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: null
+    expected_visible_features: []
+  scene:
+    scene_id: SC-A
+    state_revision: null
+    story_time: 生日傍晚→次日→手续办妥后搬离
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  source_fields:
+    字段: 内容
+    '---': '---'
+    镜头编号: EP01_07
+    时长: '5'
+    场景: SC-A 同一住宅玄关／手续办妥后
+    人物: 林晚
+    景别: 中景
+    机位: 利用SC-A左后方既有门洞与棕木入户门，室内固定机位朝出门方向
+    画面内容: 林晚背好包，拉着一个行李箱搬离。
+    人物动作: 门已经打开、拉杆已拉出，她握住拉杆平稳向门外走出画面，不转身。
+    人物表情: 平静、克制，不回头大哭。
+    对白: 无
+    旁白: 无
+    环境音: 行李轮声；轻脚步声
+    首帧生成提示词: 9:16竖屏，写实中国生活摄影，暖灰自然光，轻微胶片感，真实皮肤、适度景深，无水印、无乱码。凡林晚入画，必须引用已确认v2及本行指定角色库图片，锁定49岁林晚的脸型、五官比例、眼鼻嘴、发际线和黑色低马尾，不重新设计面孔，不明显年轻化。空间严格参考SC-A：长方木桌、白色圆罩吊灯、画面左后方玄关门洞与棕色入户门、右后方餐边柜、右侧窗，家具关系不变。取现有玄关，不另造走廊。林晚穿LW-C01米白针织衫、深灰直筒裤、深棕平底鞋，外加普通深蓝外套LW-C02；一个棕色随身包背在左肩，一个深灰行李箱在右手侧，拉杆已展开，入户门已打开。首帧停在门内，无其他人物。
+    视频动作提示词: 固定中景。林晚拉着行李箱向门外缓慢走两步并离开画面，包自然轻晃。不开门、不临时拉起拉杆、不大幅转身，衣服和箱包不变形。
+    引用的角色参考图: 01_角色参考图/林晚/林晚_01_固定标准角色图_v2.png；01_角色参考图/林晚/林晚_04_正面全身.png
+    引用的场景参考图: 02_场景参考图/婚姻时期住宅/SC-A_01_餐厅全景.png
+    生成难度: 中：步态与箱轮
+    连续性注意事项: 00:32—00:37。后期时间字幕“手续办妥后”，明确与次日整理钱物有时间间隔，不标具体耗时。07—12同一天，深蓝外套、左肩棕包、右侧灰箱连续。外套为本集服装设计，面部身份仍只认固定角色库。
+assets:
+- asset_id: EP01_first_frame_54b0b79961_6413198e
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 6413198e796991bcdc8fe81632ac240c1e0f5707120aa88a0c3227f9890da5cd
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1876770
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_75723563b8_59f0997e
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07_eyeFix.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 59f0997e9173609b93782d5173fdc1fe68eae272716ebcb07f2dbf21414fd364
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1629593
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_96a6330346_52098901
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07_old.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 520989018c2c502947bbca821cafe7c7fa0c63cd3e6f5e69a3d20003d9169df1
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 2880
+    height: 5124
+  size_bytes: 16687549
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_d7006954ae_effebe0b
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07_old2.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: effebe0bfc579c2861ccd0337a27970b35dccbb1ba8da1889859afd0d79bbf0d
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1629569
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_7962364118_e73db688
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07_retryA.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: e73db6889f9a301951330f2e5ada29c91703f7f67f1dcdb7bb533ea55ebaedd8
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1925098
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_49174d4cde_a1a6be85
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07_retryB.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: a1a6be85a5bde315bd017124d91cc50d2d3f33f686c65e4e7cb34df3427df493
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1933951
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_9a8e8f3868_5228b7fa
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07_retryC.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 5228b7faaef52b1308a95287fcaf6a78bbde67f379fe713fa6b5785195f6fb74
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1901021
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_7da1e0f87e_da767edb
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07_test_art.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: da767edbe3101ba6dd1924581f0239a6039ad65dbb9d930e082cde715a1e33f6
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1841703
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_66690a764d_fa148daf
+  kind: first_frame
+  path: EP01/03_首帧/EP01_07_test_art_v2.png
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: fa148daf4b7501c7c84fd516c6531083ef643fb381bebfd2b709404b863f72f3
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1847537
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_video_3313ee39f2_3359ec16
+  kind: video
+  path: EP01/04_视频镜头/EP01_07_video_test_miora_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 3359ec1628db126bb1a578171f266be6bbc2455e59413dad72775242617c1edf
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 768
+    height: 1344
+    fps: 24/1
+    frame_count: 124
+    duration_s: 5.167
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 32000
+    audio_channels: 2
+    audio_codec: aac
+  size_bytes: 914176
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_video_83cf05149f_46fc992f
+  kind: video
+  path: EP01/04_视频镜头/EP01_07_video_test_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 46fc992f4292fb0770e3a1561669db9c6740ab89b571d9e27aa0a54d16dc6a4f
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 8575001
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_video_7ab3edc08e_5c52bb55
+  kind: video
+  path: EP01/04_视频镜头/EP01_07_video_test_v2.mp4
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 5c52bb5521e78e057b1170dc0142a323c9f91c1664d472a16e82e876f9fdecb2
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 7674271
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_video_0b5c328d5d_71d922ca
+  kind: video
+  path: EP01/04_视频镜头/EP01_07_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 71d922cad3371659b8cf16f1d3913967352be6329f220feb7ffbb64c84e72ff0
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#LOCK
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 8704026
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+selected_assets:
+  first_frame:
+    asset_id: null
+    decision_evidence_ids: []
+  video:
+    asset_id: EP01_video_0b5c328d5d_71d922ca
+    decision_evidence_ids:
+    - episodes/EP01/episode_status.yaml#LOCK
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP01_video_3313ee39f2_3359ec16
+  - EP01_video_83cf05149f_46fc992f
+  - EP01_video_7ab3edc08e_5c52bb55
+  - EP01_video_0b5c328d5d_71d922ca
+  asset_sha256s:
+  - 3359ec1628db126bb1a578171f266be6bbc2455e59413dad72775242617c1edf
+  - 46fc992f4292fb0770e3a1561669db9c6740ab89b571d9e27aa0a54d16dc6a4f
+  - 5c52bb5521e78e057b1170dc0142a323c9f91c1664d472a16e82e876f9fdecb2
+  - 71d922cad3371659b8cf16f1d3913967352be6329f220feb7ffbb64c84e72ff0
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  locator: EP01_07
+  source_sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP01_SH007
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

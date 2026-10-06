@@ -1,0 +1,242 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP03
+shot_id: EP03_SH015
+sequence: 15
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP03/02_分镜/EP03_正式分镜表.md
+  path_base: content_root
+  sha256: aacb6b17bf4d5267b22a2319be2191cbd47513f24cc6eba09ab492209f7a3555
+previous_shot_id: EP03_SH014
+next_shot_id: null
+requirements:
+  description: 她看到一个职位，手指停下来，犹豫了一会儿，点击。镜头停在林晚脸上，没有哭，也没有突然振作，只是认真看着手机屏（屏光映脸）。画面渐黑。
+  framing: 近景（渐黑收尾）
+  planned_duration_s: 5.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: LW-C01
+    expected_visible_features: []
+  scene:
+    scene_id: SC-C
+    state_revision: null
+    story_time: 第二天清晨
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#STORYBOARD
+  source_fields:
+    镜头编号: EP03_15
+    时长: 5s
+    景别: 近景（渐黑收尾）
+    画面内容: 她看到一个职位，手指停下来，犹豫了一会儿，点击。镜头停在林晚脸上，没有哭，也没有突然振作，只是认真看着手机屏（屏光映脸）。画面渐黑。
+    台词: 旁白：四十九岁。／（停顿）／我得先想办法，养活自己。
+    音效: 安静收尾
+    服装道具: 同上；手机
+    参考图: 林晚_01_v2；林晚_07_平静；SC-C_01
+assets:
+- asset_id: EP03_first_frame_b0ea922860_7098446f
+  kind: first_frame
+  path: EP03/03_首帧/EP03_15.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 7098446f16b5e927a8477f7a204cadab6e482b2da69390e462417224a753e0e7
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1938946
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP03_first_frame_0b9d01088e_324d8ab9
+  kind: first_frame
+  path: EP03/03_首帧/EP03_15_v2.png
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 324d8ab98fa5431363f8417bc279285237842c71b634a6aa64c79886f5e0762d
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 2062398
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP03_video_d74d42a057_e5342fce
+  kind: video
+  path: EP03/04_视频镜头/EP03_15_video_v2.mp4
+  path_base: content_root
+  version_label: v2
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: e5342fceedc7dfb5db03c165d91168bcad4a4e0e179910f2eeb5d8f9450e3b95
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  - episodes/EP03/episode_status.yaml#FINAL_REPORT
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 5778900
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP03_voice_f592a4bb77_beec752b
+  kind: voice
+  path: EP03/05_配音/01_正式语音素材/EP03_15_林晚旁白.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: beec752b09ec4b0bb197534bd4fcf536bee660d0f7a94a7c37a2157c52fe4509
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: null
+    height: null
+    fps: null
+    frame_count: null
+    duration_s: 4.32
+    video_codec: null
+    pixel_format: null
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: pcm_s16le
+  size_bytes: 829484
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: unverified
+- asset_id: EP03_voice_521d8ea24e_7447bf9d
+  kind: voice
+  path: EP03/05_配音/01_正式语音素材/历史测试资产_F5/EP03_15_林晚旁白.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 7447bf9d5f7a79b62ff4d02c48694ec2196b28139b3a7849dcd02b0f03933460
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical: {}
+  size_bytes: 190924
+  technical_verification: not_measured
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: historical_F5_by_archive
+selected_assets:
+  first_frame:
+    asset_id: null
+    decision_evidence_ids: []
+  video:
+    asset_id: EP03_video_d74d42a057_e5342fce
+    decision_evidence_ids:
+    - episodes/EP03/episode_status.yaml#FINAL_REPORT
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP03_video_d74d42a057_e5342fce
+  - EP03_voice_f592a4bb77_beec752b
+  asset_sha256s:
+  - e5342fceedc7dfb5db03c165d91168bcad4a4e0e179910f2eeb5d8f9450e3b95
+  - beec752b09ec4b0bb197534bd4fcf536bee660d0f7a94a7c37a2157c52fe4509
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP03/02_分镜/EP03_正式分镜表.md
+  path_base: content_root
+  locator: EP03_15
+  source_sha256: aacb6b17bf4d5267b22a2319be2191cbd47513f24cc6eba09ab492209f7a3555
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP03_SH015
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  - episodes/EP03/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

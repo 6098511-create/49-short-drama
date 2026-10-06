@@ -1,0 +1,211 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP02
+shot_id: EP02_SH001
+sequence: 1
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP02/02_分镜/EP02_正式分镜表.md
+  path_base: content_root
+  sha256: 47489d6b618263d8ce1f691b26ee2877299ed24503ee65e459d1487df50030b1
+previous_shot_id: null
+next_shot_id: EP02_SH002
+requirements:
+  description: 承接 EP01_12 末镜：林晚仍站老房子客厅窗边，傍晚微亮，右主窗已开约 60°；空气里浮着灰尘；她环视多年无人住的老屋，行李箱在入口左墙边，棕包背左肩。
+  framing: 中景
+  planned_duration_s: 5.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: LW-C02
+    expected_visible_features: []
+  scene:
+    scene_id: SC-C
+    state_revision: null
+    story_time: 回老房子的第一晚，傍晚→夜
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#STORYBOARD
+  source_fields:
+    镜头编号: EP02_01
+    时长: 5s
+    景别: 中景
+    画面内容: 承接 EP01_12 末镜：林晚仍站老房子客厅窗边，傍晚微亮，右主窗已开约 60°；空气里浮着灰尘；她环视多年无人住的老屋，行李箱在入口左墙边，棕包背左肩。
+    台词: —
+    音效: 安静室内底噪；极轻风从窗外
+    服装道具: LW-C02 深蓝外套＋米白内搭＋深灰直筒裤＋深棕平底鞋；左肩棕包；入口左墙深灰行李箱（EP01 同款，视觉近黑）
+    参考图: 林晚_01_v2；林晚_02_左45度；SC-C_01 客厅未开窗（窗开状态承接 EP01_11/12）
+assets:
+- asset_id: EP02_first_frame_1a6a70645e_a87e95ab
+  kind: first_frame
+  path: EP02/03_首帧/EP02_01.png
+  path_base: content_root
+  version_label: null
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: a87e95ab67d6168fbb161593c2694736f09bf03cfa0fd7b03b84c5b5b0d7620b
+  presence: present
+  qc_status: needs_recheck
+  adoption: confirmed
+  applicability: current
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  - episodes/EP02/episode_status.yaml#STATUS
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 2009113
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP02_first_frame_c02f7280e2_50cc461e
+  kind: first_frame
+  path: EP02/03_首帧/EP02_01_old.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 50cc461e31d1bdcf473d921769069b3ca74de45b117d7e82df52353edc4f13a0
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1995914
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP02_first_frame_d5d5526713_f284d251
+  kind: first_frame
+  path: EP02/03_首帧/EP02_01_v2_old.png
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: f284d2511f3e5bb0f321cc94d5d97f6e33518e93e69a641bc6001d5aba902383
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1925926
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP02_video_becc19f131_de8e9f16
+  kind: video
+  path: EP02/04_视频镜头/EP02_01_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: de8e9f1690e096ce4851b0439d434a47e2d38f31a4fe605c83d17fb7761e2c7f
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  - episodes/EP02/episode_status.yaml#STATUS
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 5614998
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+selected_assets:
+  first_frame:
+    asset_id: EP02_first_frame_1a6a70645e_a87e95ab
+    decision_evidence_ids:
+    - episodes/EP02/episode_status.yaml#STATUS
+  video:
+    asset_id: EP02_video_becc19f131_de8e9f16
+    decision_evidence_ids:
+    - episodes/EP02/episode_status.yaml#STATUS
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP02_video_becc19f131_de8e9f16
+  asset_sha256s:
+  - de8e9f1690e096ce4851b0439d434a47e2d38f31a4fe605c83d17fb7761e2c7f
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP02/02_分镜/EP02_正式分镜表.md
+  path_base: content_root
+  locator: EP02_01
+  source_sha256: 47489d6b618263d8ce1f691b26ee2877299ed24503ee65e459d1487df50030b1
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP02_SH001
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  - episodes/EP02/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

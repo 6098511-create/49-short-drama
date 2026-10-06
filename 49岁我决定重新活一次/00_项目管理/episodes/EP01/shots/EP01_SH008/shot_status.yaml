@@ -1,0 +1,198 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP01
+shot_id: EP01_SH008
+sequence: 8
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+previous_shot_id: EP01_SH007
+next_shot_id: EP01_SH009
+requirements:
+  description: 灰绿铁门已开；旧白墙、灰瓦、中央棕木门和两侧木窗。林晚停在院门内，看着老房子。
+  framing: 环境全景
+  planned_duration_s: 6.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: null
+    expected_visible_features: []
+  scene:
+    scene_id: SC-B
+    state_revision: null
+    story_time: 生日傍晚→次日→手续办妥后搬离
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  source_fields:
+    字段: 内容
+    '---': '---'
+    镜头编号: EP01_08
+    时长: '6'
+    场景: SC-B 北方老房子外景／同日白天
+    人物: 林晚
+    景别: 环境全景
+    机位: 铁门入口内侧朝北侧平房正立面，固定机位，不航拍
+    画面内容: 灰绿铁门已开；旧白墙、灰瓦、中央棕木门和两侧木窗。林晚停在院门内，看着老房子。
+    人物动作: 行李箱已停下，她轻轻抬眼看房子，仅有呼吸和轻微重心变化。
+    人物表情: 谨慎、陌生，情绪收住。
+    对白: 无
+    旁白: 无
+    环境音: 轻风；远处生活底噪；短促滚轮声后停止
+    首帧生成提示词: 9:16竖屏，写实中国生活摄影，暖灰自然光，轻微胶片感，真实皮肤、适度景深，无水印、无乱码。凡林晚入画，必须引用已确认v2及本行指定角色库图片，锁定49岁林晚的脸型、五官比例、眼鼻嘴、发际线和黑色低马尾，不重新设计面孔，不明显年轻化。严格引用SC-B外景，保留灰绿色双扇铁门开角、中央木门、左右两扇分格木窗、屋顶与杂草分布。林晚穿07同款深蓝外套、米白内搭、灰裤棕平底鞋，背左肩棕包、右侧停一个灰箱，站在院门内，三分之二背侧身朝房子。构图以环境为主，无多余人物、招牌或车辆。
+    视频动作提示词: 固定全景。林晚停在院门内，慢慢抬眼看老房子，短暂停住。只让少量杂草随轻风摆动，不同时走路、转身或推门。
+    引用的角色参考图: 01_角色参考图/林晚/林晚_01_固定标准角色图_v2.png；01_角色参考图/林晚/林晚_04_正面全身.png；01_角色参考图/林晚/林晚_02_左45度.png
+    引用的场景参考图: 02_场景参考图/老房子外景/SC-B_01_外景.png
+    生成难度: 低—中：环境保持与轻动作
+    连续性注意事项: 00:37—00:43。人物已在门内，开锁过程省略；05已建立钥匙。不要换成江南古宅或豪宅。衣服和箱包承接07，铁门开角与原参考一致，旧屋窗此时关闭。
+assets:
+- asset_id: EP01_first_frame_28502ea066_6aedcddb
+  kind: first_frame
+  path: EP01/03_首帧/EP01_08.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 6aedcddbdba1191aab5821577900df724d010162547e2cd2434d0e708827bf7c
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 2175182
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_cd3c7293c8_0cf8ed2f
+  kind: first_frame
+  path: EP01/03_首帧/EP01_08_old.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 0cf8ed2f957777086cedcfa00c77e2f0a9f1beeae0905f4e97624cc74574f52a
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1440
+    height: 2560
+  size_bytes: 4040402
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_video_5f22b03c86_d6f10dc5
+  kind: video
+  path: EP01/04_视频镜头/EP01_08_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: d6f10dc5b77c2aee1d81da21b8306986c039299f3f3241139e0a9725e9ef3d36
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#LOCK
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 6627210
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+selected_assets:
+  first_frame:
+    asset_id: null
+    decision_evidence_ids: []
+  video:
+    asset_id: EP01_video_5f22b03c86_d6f10dc5
+    decision_evidence_ids:
+    - episodes/EP01/episode_status.yaml#LOCK
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP01_video_5f22b03c86_d6f10dc5
+  asset_sha256s:
+  - d6f10dc5b77c2aee1d81da21b8306986c039299f3f3241139e0a9725e9ef3d36
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  locator: EP01_08
+  source_sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP01_SH008
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

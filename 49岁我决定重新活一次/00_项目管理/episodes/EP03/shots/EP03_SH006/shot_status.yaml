@@ -1,0 +1,186 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP03
+shot_id: EP03_SH006
+sequence: 6
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP03/02_分镜/EP03_正式分镜表.md
+  path_base: content_root
+  sha256: aacb6b17bf4d5267b22a2319be2191cbd47513f24cc6eba09ab492209f7a3555
+previous_shot_id: EP03_SH005
+next_shot_id: EP03_SH007
+requirements:
+  description: 她倒了杯热水，端到窗边坐下。右主窗开60°，晨光与院子入画。
+  framing: 中景
+  planned_duration_s: 4.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: LW-C01
+    expected_visible_features: []
+  scene:
+    scene_id: SC-C
+    state_revision: null
+    story_time: 第二天清晨
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#STORYBOARD
+  source_fields:
+    镜头编号: EP03_06
+    时长: 4s
+    景别: 中景
+    画面内容: 她倒了杯热水，端到窗边坐下。右主窗开60°，晨光与院子入画。
+    台词: —
+    音效: 倒水声；安静
+    服装道具: 同上
+    参考图: 林晚_01_v2；林晚_02_左45度；SC-C_01；SC-B_01
+assets:
+- asset_id: EP03_first_frame_8144f33334_de04ccba
+  kind: first_frame
+  path: EP03/03_首帧/EP03_06.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: de04ccba2156d9767c3eb7057cbce87ccbeb94c8d10605f37983d6e21c8c9fdc
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 2050658
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP03_first_frame_98d3d833cc_f9726521
+  kind: first_frame
+  path: EP03/03_首帧/EP03_06_v2.png
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: f9726521adbb2649729fe9c7eb9d00c5d7bbfaa416960bc6a00d1c00d625c616
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 2094296
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP03_video_5eb389ccc7_4d20c07d
+  kind: video
+  path: EP03/04_视频镜头/EP03_06_video_v2.mp4
+  path_base: content_root
+  version_label: v2
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 4d20c07d7ebce8586a711fffb7301247809cd4b49008c7d4104af777edfa446e
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  - episodes/EP03/episode_status.yaml#FINAL_REPORT
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 4563060
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+selected_assets:
+  first_frame:
+    asset_id: null
+    decision_evidence_ids: []
+  video:
+    asset_id: EP03_video_5eb389ccc7_4d20c07d
+    decision_evidence_ids:
+    - episodes/EP03/episode_status.yaml#FINAL_REPORT
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP03_video_5eb389ccc7_4d20c07d
+  asset_sha256s:
+  - 4d20c07d7ebce8586a711fffb7301247809cd4b49008c7d4104af777edfa446e
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP03/02_分镜/EP03_正式分镜表.md
+  path_base: content_root
+  locator: EP03_06
+  source_sha256: aacb6b17bf4d5267b22a2319be2191cbd47513f24cc6eba09ab492209f7a3555
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP03_SH006
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP03/episode_status.yaml#SCAN
+  - episodes/EP03/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

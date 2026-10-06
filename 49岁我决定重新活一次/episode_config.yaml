@@ -1,0 +1,315 @@
+# ============================================================
+# episode_config.yaml —— AI短剧自动生产模板 v1 配套配置
+# 本文件当前为「EP01 完整回填示例」：所有字段均取自 EP01 终版（EP01_最终成片_v3.mp4）。
+# 用法：生成下一集时，只需修改 4 个字段：
+#   episode（集数） / script_path（剧本） / shot_count（镜头数量） / shots[].vo[].audio（配音文件）
+# 其余字段已固化，无需每集重填。详见 AI短剧自动生产模板_v1.md。
+# ============================================================
+
+# ---- ① 集数（最小变量1）----
+episode: EP01
+title: "49岁，我决定重新活一次"
+
+# ---- ② 剧本路径（最小变量2）----
+script_path: "EP01/01_剧本/EP01_剧本.md"
+
+# ---- ③ 镜头数量（最小变量3）----
+shot_count: 12
+
+# ---- 镜头清单（EP01 实测回填；每镜统一 121 帧 @24fps = 5.0417s）----
+# offset = VO 起始相对本镜开头秒数；abs_start = 全片绝对秒数；dur = WAV 实测秒数
+shots:
+  - id: "01"
+    scene: home
+    duration_frames: 121
+    start_s: 0.000
+    end_s: 5.042
+    vo:
+      - character: 丈夫
+        audio: "EP01/05_配音/01_正式语音素材/EP01_01_丈夫_我们分开吧.wav"
+        offset: 0.10            # ④ 最小变量4：配音文件
+        abs_start: 0.10
+        dur: 1.154
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_01_林晚_你回来了.wav"
+        offset: 1.15
+        abs_start: 1.15
+        dur: 0.368
+  - id: "02"
+    scene: home
+    duration_frames: 121
+    start_s: 5.042
+    end_s: 10.083
+    vo:
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_02_林晚_想好了.wav"
+        offset: 0.55
+        abs_start: 5.59
+        dur: 1.000
+      - character: 丈夫
+        audio: "EP01/05_配音/01_正式语音素材/EP01_02_丈夫_嗯.wav"
+        offset: 2.60
+        abs_start: 7.64
+        dur: 0.650
+  - id: "03"
+    scene: home
+    duration_frames: 121
+    start_s: 10.083
+    end_s: 15.125
+    vo:
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_03_林晚_先放这儿吧.wav"
+        offset: 1.45
+        abs_start: 11.53
+        dur: 1.150
+  - id: "04"
+    scene: home
+    duration_frames: 121
+    start_s: 15.125
+    end_s: 20.167
+    # 旁白 7.3387s > 5.04s 镜窗 → 跨镜延续至 shot05（见字幕 结婚二十七年。）
+    vo:
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_04_林晚_旁白.wav"
+        offset: 0.90
+        abs_start: 16.03
+        dur: 7.339
+        spans_to_shot: "05"
+  - id: "05"
+    scene: home
+    duration_frames: 121
+    start_s: 20.167
+    end_s: 25.208
+    vo:
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_05_林晚_旁白.wav"
+        offset: 3.38
+        abs_start: 23.55
+        dur: 3.050
+  - id: "06"
+    scene: home
+    duration_frames: 121
+    start_s: 25.208
+    end_s: 30.250
+    vo:
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_06_林晚_旁白.wav"
+        offset: 1.59
+        abs_start: 26.80
+        dur: 2.950
+  - id: "07"
+    scene: home_out
+    duration_frames: 121
+    start_s: 30.250
+    end_s: 35.292
+    vo: []
+  - id: "08"
+    scene: out
+    duration_frames: 121
+    start_s: 35.292
+    end_s: 40.333
+    vo: []
+  - id: "09"
+    scene: old
+    duration_frames: 121
+    start_s: 40.333
+    end_s: 45.375
+    vo: []
+  - id: "10"
+    scene: old
+    duration_frames: 121
+    start_s: 45.375
+    end_s: 50.417
+    vo:
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_10_林晚_旁白.wav"
+        offset: 0.85
+        abs_start: 46.23
+        dur: 3.000
+  - id: "11"
+    scene: old
+    duration_frames: 121
+    start_s: 50.417
+    end_s: 55.458
+    vo:
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_11_林晚_旁白.wav"
+        offset: 1.40
+        abs_start: 51.82
+        dur: 2.950
+  - id: "12"
+    scene: old
+    duration_frames: 121
+    start_s: 55.458
+    end_s: 60.500
+    vo:
+      - character: 林晚
+        audio: "EP01/05_配音/01_正式语音素材/EP01_12_林晚_旁白.wav"
+        offset: 0.85
+        abs_start: 56.31
+        dur: 1.550
+
+# ---- 字幕时间轴（EP01_字幕.ass 实测回填；Style: Dialogue 对白/旁白, Title 后期排字, Note 注释）----
+subtitles:
+  - text: "我们分开吧。"
+    style: Dialogue
+    start_s: 0.10
+    end_s: 1.26
+    character: 丈夫
+  - text: "你回来啦。"
+    style: Dialogue
+    start_s: 1.15
+    end_s: 2.13
+    character: 林晚
+  - text: "想好了？"
+    style: Dialogue
+    start_s: 5.57
+    end_s: 6.80
+    character: 林晚
+  - text: "嗯。"
+    style: Dialogue
+    start_s: 7.62
+    end_s: 8.64
+    character: 丈夫
+  - text: "先放这儿吧。"
+    style: Dialogue
+    start_s: 11.50
+    end_s: 12.98
+    character: 林晚
+  - text: "那天，我四十九岁。"
+    style: Dialogue
+    start_s: 16.02
+    end_s: 18.47
+    character: 林晚
+  - text: "结婚二十七年。"
+    style: Dialogue
+    start_s: 18.57
+    end_s: 23.36
+    character: 林晚
+  - text: "老房子的钥匙，我一直留着。"
+    style: Dialogue
+    start_s: 23.52
+    end_s: 26.75
+    character: 林晚
+  - text: "我自己的积蓄，一共八万六。"
+    style: Dialogue
+    start_s: 26.77
+    end_s: 29.95
+    character: 林晚
+  - text: "工作还没着落。以后怎么办？"
+    style: Dialogue
+    start_s: 46.20
+    end_s: 49.58
+    character: 林晚
+  - text: "也许我的人生，不是结束了。"
+    style: Dialogue
+    start_s: 51.79
+    end_s: 55.05
+    character: 林晚
+  - text: "是刚刚开始。"
+    style: Dialogue
+    start_s: 56.28
+    end_s: 58.76
+    character: 林晚
+  - text: "第二天"
+    style: Title
+    start_s: 20.47
+    end_s: 23.17
+  - text: "手续办妥后"
+    style: Title
+    start_s: 30.55
+    end_s: 33.15
+  - text: "个人积蓄 86,000元"
+    style: Note
+    start_s: 25.71
+    end_s: 28.61
+
+# ---- 角色音色锁定（正式成片只用人工录制，禁 AI 音色）----
+voice_assets:
+  林晚:
+    spec: "女性 49岁 成熟/平静/生活感；对白自然克制，旁白更平静"
+    dir: "EP01/05_配音/01_正式语音素材"
+  丈夫:
+    spec: "男性 51岁 克制/疏离；平静回避，不凶狠不霸总"
+    dir: "EP01/05_配音/01_正式语音素材"
+  forbidden:
+    - "F5-TTS"
+    - "Kokoro"
+    - "edge-tts"
+    - "任何其他 AI 合成音色"
+  rule: "正式成片声音 = 剪映人工录制 WAV；AI 音色禁止进入成片"
+
+# ---- 音频规则（强制）----
+audio:
+  src_sample_rate: 48000
+  src_bit_depth: 16
+  src_channels: 2            # 立体声
+  master_sample_rate: 48000
+  master_bit_depth: 16
+  master_channels: 2
+  normalize_peak_dbfs: -1.0  # 软限幅后归一到 0.89（实测 peak = 0.8900 = -1.01 dBFS）
+  forbidden_input: "24kHz 单声道 AI 音频"
+  trim_tail_silence: 0.20    # 裁尾保留静音秒数
+  mix_bus: "单声道总线；剪映立体声 WAV 下混进总线（源文件不动）"
+
+# ---- 视频 / 合成 ----
+video:
+  resolution: "1080x1920"
+  fps: 24
+  frames_per_shot: 121
+  codec: "libx264"
+  crf: 18
+  audio_codec: "aac"
+  audio_bitrate: "192k"
+  # WorkBuddy 生成器水印坐标（换生成器须重新抽帧定位）
+  delogo: {x: 830, y: 1840, w: 244, h: 78}
+  # 注意：EP01 源视频为 1080x1916，须先 scale=1080:1920 再 delogo
+  source_note: "EP01 源视频 1080x1916 → scale=1080:1920 (lanczos) → delogo → 烧字幕 → mux"
+
+# ---- 目录结构（与模板第一节一致）----
+directories:
+  script: "01_剧本"
+  storyboard: "02_分镜"
+  keyframes: "03_首帧"
+  video_shots: "04_视频镜头"
+  voice: "05_配音/01_正式语音素材"
+  audio_eng: "06_音频工程"
+  subtitle: "07_字幕"
+  roughcut: "08_粗剪预览"
+  final: "09_最终成片"
+
+# ---- 成片 QC 阈值 ----
+qc:
+  video_resolution: "1080x1920"
+  audio_sample_rate: 48000
+  audio_channels: 2
+  audio_bit_depth: 16
+  peak_dbfs_max: -1.0
+  sync_tolerance_s: 0.2
+  subtitle_rules:
+    every_voice_has_subtitle: true
+    every_subtitle_has_voice: true
+    no_two_subtitles_same_position: true
+    timeline_qc_before_export: true
+  character_consistency: true
+  file_integrity: true        # 帧数 = 镜头数×121，无缺镜乱序
+
+# ---- EP01 实际 QC 结果（回填自 EP01_最终成片_v3.mp4 + mix/EP01_混音_48k.wav）----
+qc_results:
+  final_file: "EP01/09_最终成片/EP01_最终成片_v3.mp4"
+  video_resolution: "1080x1920"
+  frames: 1452
+  duration_s: 60.50
+  fps: 24
+  frame_check: "pass — 12×121 = 1452 帧，SH01–12 顺序正确，无缺镜乱序"
+  audio_sample_rate: 48000
+  audio_channels: 2
+  audio_bit_depth: 16
+  peak_dbfs: -1.01
+  longest_silence_s: 0.58     # RMS<0.005 实测；剧本设计停顿由 BGM 覆盖，无意外静默
+  audio_stability: "pass — 重烧字幕前后成片音频 MD5 逐位一致（c102762e…），仅字幕层变更"
+  subtitle_overlap_check: "pass(帧抽检) — 0.6s 仅显示「我们分开吧。」、1.4s 仅显示「你回来啦。」；但时间轴严格核查发现 shot01 丈夫句尾(1.26s)与林晚句头(1.15s)存在 0.11s 同位置(Dialogue)重叠，已随批准终版保留。模板规则 no_two_subtitles_same_position 要求后续集保持 ≥0.2s 间隔"
+  sync_check: "pass — 全部 VO 起始与字幕起始误差 ≤0.2s（见 shots[].vo[].abs_start 与 subtitles[].start_s）"
+  voice_subtitle_coverage: "pass — 11 条声音均有字幕，15 条字幕均对应声音/排字"
+  character_consistency: "pass"
+  file_integrity: "pass"

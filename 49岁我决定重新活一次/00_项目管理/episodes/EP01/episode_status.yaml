@@ -1,0 +1,531 @@
+schema_version: '1.0'
+record_type: episode
+episode_id: EP01
+title: 49岁生日那天，丈夫给了我一份离婚协议
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+script:
+  path: EP01/01_剧本/EP01_剧本.md
+  path_base: content_root
+  sha256: 754f49f77a2223b1c3b0ce0368c548d970d7106400d1b3fc07a5fc83098635d9
+  adoption: candidate
+  evidence_ids:
+  - SCRIPT
+storyboard:
+  path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+  adoption: candidate
+  evidence_ids:
+  - STORYBOARD
+directory_map:
+  script: EP01/01_剧本
+  storyboard: EP01/02_分镜
+  first_frames: EP01/03_首帧
+  video_shots: EP01/04_视频镜头
+  voice: EP01/05_配音
+  audio_engineering: EP01/06_音乐音效
+  subtitles: EP01/07_字幕
+  roughcut: EP01/05_粗剪预览
+  final: EP01/09_最终成片
+shot_count_expected: 12
+shots:
+- shot_id: EP01_SH001
+  status_path: episodes/EP01/shots/EP01_SH001/shot_status.yaml
+- shot_id: EP01_SH002
+  status_path: episodes/EP01/shots/EP01_SH002/shot_status.yaml
+- shot_id: EP01_SH003
+  status_path: episodes/EP01/shots/EP01_SH003/shot_status.yaml
+- shot_id: EP01_SH004
+  status_path: episodes/EP01/shots/EP01_SH004/shot_status.yaml
+- shot_id: EP01_SH005
+  status_path: episodes/EP01/shots/EP01_SH005/shot_status.yaml
+- shot_id: EP01_SH006
+  status_path: episodes/EP01/shots/EP01_SH006/shot_status.yaml
+- shot_id: EP01_SH007
+  status_path: episodes/EP01/shots/EP01_SH007/shot_status.yaml
+- shot_id: EP01_SH008
+  status_path: episodes/EP01/shots/EP01_SH008/shot_status.yaml
+- shot_id: EP01_SH009
+  status_path: episodes/EP01/shots/EP01_SH009/shot_status.yaml
+- shot_id: EP01_SH010
+  status_path: episodes/EP01/shots/EP01_SH010/shot_status.yaml
+- shot_id: EP01_SH011
+  status_path: episodes/EP01/shots/EP01_SH011/shot_status.yaml
+- shot_id: EP01_SH012
+  status_path: episodes/EP01/shots/EP01_SH012/shot_status.yaml
+timeline:
+  planned_duration_s: 65.0
+  actual_duration_s: 60.5
+  actual_frame_count: 1452
+  basis_asset_ids:
+  - EP01_video_af0da1ecca_1d16062c
+  - EP01_video_3967165799_86b8ab80
+  - EP01_video_f3c29b3abd_4bab61c2
+  - EP01_video_a690eae7b4_e54c1ed5
+  - EP01_video_03c511dd3e_d755f488
+  - EP01_video_8bd2226014_da65a76d
+  - EP01_video_0b5c328d5d_71d922ca
+  - EP01_video_5f22b03c86_d6f10dc5
+  - EP01_video_4a63be9470_288edc60
+  - EP01_video_11171ab6bc_fee20fa8
+  - EP01_video_93effcbb40_2782535a
+  - EP01_video_a74af97f54_8a581460
+  evidence_ids:
+  - SCAN
+  planned_duration_note: 各镜分镜时长求和；EP03标题约60秒/含渐黑62秒另作历史说明
+  selected_source_frame_sum: 1452
+  selected_source_nominal_duration_s: 60.5
+  source_timing_note: 按容器帧数及平均帧率汇总；未逐帧验证CFR，不能替代最终剪辑时间轴
+  actual_measurement_asset_id: EP01_final_5458806bab_91cd8143
+stages:
+  S0:
+    status: awaiting_review
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S1:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S2:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S3:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S4:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S5:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers:
+    - VOICE_AUTHORITY
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S6:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers:
+    - VOICE_AUTHORITY
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S7:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers:
+    - VOICE_AUTHORITY
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S8:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S9:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers:
+    - VOICE_AUTHORITY
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+continuity:
+  predecessor_episode_id: null
+  inherited_end_state_evidence_ids: []
+  story_time: 生日傍晚→次日→手续办妥后搬离
+  character_baseline_ids:
+  - LW_IDENTITY_V2
+  - HZ_IDENTITY
+  scene_baseline_ids:
+  - SC-A
+  - SC-B
+  - SC-C
+  initial_prop_states: []
+  end_prop_states: []
+  evidence_ids:
+  - SCRIPT
+  - STORYBOARD
+selected_assets:
+- shot_id: EP01_SH001
+  kind: video
+  asset_id: EP01_video_af0da1ecca_1d16062c
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH002
+  kind: video
+  asset_id: EP01_video_3967165799_86b8ab80
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH003
+  kind: video
+  asset_id: EP01_video_f3c29b3abd_4bab61c2
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH004
+  kind: video
+  asset_id: EP01_video_a690eae7b4_e54c1ed5
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH005
+  kind: video
+  asset_id: EP01_video_03c511dd3e_d755f488
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH006
+  kind: video
+  asset_id: EP01_video_8bd2226014_da65a76d
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH007
+  kind: video
+  asset_id: EP01_video_0b5c328d5d_71d922ca
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH008
+  kind: video
+  asset_id: EP01_video_5f22b03c86_d6f10dc5
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH009
+  kind: video
+  asset_id: EP01_video_4a63be9470_288edc60
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH010
+  kind: video
+  asset_id: EP01_video_11171ab6bc_fee20fa8
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH011
+  kind: video
+  asset_id: EP01_video_93effcbb40_2782535a
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+- shot_id: EP01_SH012
+  kind: video
+  asset_id: EP01_video_a74af97f54_8a581460
+  decision_evidence_ids:
+  - episodes/EP01/episode_status.yaml#LOCK
+assets:
+- asset_id: EP01_subtitle_2ecd11b399_c53dc955
+  kind: subtitle
+  path: EP01/07_字幕/EP01_字幕.ass
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: c53dc95522607446fd05f73754e491269f617e55568d5e821422e6aa5212925e
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical: {}
+  size_bytes: 2072
+  technical_verification: not_measured
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_final_ae83615a9c_93e370ff
+  kind: final
+  path: EP01/09_最终成片/EP01_最终成片_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 93e370ff21b42c092aa63dab2cf2398d63022ecf4dca0436ccca71641db5e6c1
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 1342
+    duration_s: 55.916667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: aac
+  size_bytes: 31417835
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_final_2deca50f90_13087f2b
+  kind: final
+  path: EP01/09_最终成片/EP01_最终成片_v2.mp4
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 13087f2bf8c9b2c29b3bfcd0c0c4dadc3661a6c5c1c001998d3d291a4c578ea4
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 1342
+    duration_s: 55.916667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: aac
+  size_bytes: 29427479
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_final_5458806bab_91cd8143
+  kind: final
+  path: EP01/09_最终成片/EP01_最终成片_v3.mp4
+  path_base: content_root
+  version_label: v3
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 91cd81436ec45c6a9b1a37ee743466849dea07dd0e9aae58851f9754c3acbc0c
+  presence: present
+  qc_status: needs_recheck
+  adoption: confirmed
+  applicability: current
+  evidence_ids:
+  - SCAN
+  - project_status.yaml#CONFIG
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 1452
+    duration_s: 60.5
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: aac
+  size_bytes: 38341711
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_final_c0f0e9c425_0e9295f2
+  kind: final
+  path: EP01/09_最终成片/EP01_最终成片_v3_old.mp4
+  path_base: content_root
+  version_label: v3
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 0e9295f29770d1da8d37aca27b17bc2df0356b3bb53357b95941f7bb38921bc8
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 1452
+    duration_s: 60.5
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: aac
+  size_bytes: 38335708
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_roughcut_a52a8971a6_782aa9a7
+  kind: roughcut
+  path: EP01/05_粗剪预览/EP01_01-12_无声粗剪检查版_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 782aa9a7a270ce01a8c503e5ccc22190c3b7c26a711e35108b8b410217f57f77
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical: {}
+  size_bytes: 36248863
+  technical_verification: not_measured
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+output_profile:
+  width: 1080
+  height: 1920
+  fps: 24/1
+  video_codec: h264
+  audio_sample_rate: 48000
+  audio_channels: 2
+  evidence_ids:
+  - project_status.yaml#TEMPLATE
+  status: template_target_not_new_approval
+delivery:
+  final_asset_id: EP01_final_5458806bab_91cd8143
+  subtitle_asset_id: EP01_subtitle_2ecd11b399_c53dc955
+  audio_master_asset_id: null
+  input_asset_ids:
+  - EP01_video_af0da1ecca_1d16062c
+  - EP01_video_3967165799_86b8ab80
+  - EP01_video_f3c29b3abd_4bab61c2
+  - EP01_video_a690eae7b4_e54c1ed5
+  - EP01_video_03c511dd3e_d755f488
+  - EP01_video_8bd2226014_da65a76d
+  - EP01_video_0b5c328d5d_71d922ca
+  - EP01_video_5f22b03c86_d6f10dc5
+  - EP01_video_4a63be9470_288edc60
+  - EP01_video_11171ab6bc_fee20fa8
+  - EP01_video_93effcbb40_2782535a
+  - EP01_video_a74af97f54_8a581460
+  lock_evidence_ids:
+  - project_status.yaml#CONFIG
+release:
+  status: unknown
+  destination: null
+  released_at: null
+  evidence_ids: []
+  notes: 发布版/对外发布用命名不等于已上传平台；未见可核实平台发布记录
+qc_results: []
+accepted_exceptions: []
+conflicts: []
+open_issues:
+- id: EP01_DOCUMENT_STATUS
+  severity: review
+  scope: episode
+  description: 分镜待确认/剧本候选与模板v3定版表述并存；不同文档范围需厘清
+  evidence_ids:
+  - LOCK
+  - STORYBOARD
+  - project_status.yaml#CONFIG
+  status: open
+- id: EP01_MASTER_MISSING
+  severity: review
+  scope: episode
+  description: 本集06_音乐音效无母带文件；配置提到外部mix路径，本次未搜索外盘
+  evidence_ids:
+  - SCAN
+  - project_status.yaml#CONFIG
+  status: open
+evidence:
+- id: SCRIPT
+  kind: document_report
+  source_path: EP01/01_剧本/EP01_剧本.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 754f49f77a2223b1c3b0ce0368c548d970d7106400d1b3fc07a5fc83098635d9
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 当前磁盘剧本/分镜原文；状态文字可能滞后于后续验收
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: STORYBOARD
+  kind: document_report
+  source_path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 当前磁盘剧本/分镜原文；状态文字可能滞后于后续验收
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: LOCK
+  kind: document_report
+  source_path: EP01/EP01_version_lock.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 8d7178a0c8ca9971139231f03ec7421fe02fab4dc96777d952e99e3c887a7f10
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: EP01文档明确使用12段v1镜头；剧本候选V1；不是整集最新封版证据。
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: SCAN
+  kind: current_inspection
+  source_path: EP01
+  path_base: content_root
+  locator: 文件名、SHA-256；ffprobe媒体元数据；未观看或听审
+  source_sha256: null
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 只读磁盘盘点；不是全片解码或视觉/声音QC
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: verified
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP01
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - SCAN
+  - SCRIPT
+  - STORYBOARD
+  before: null
+  after: initialized
+inspection_scope: 盘点、元数据实测和历史证据登记；视觉/动作/听感未在本次重新验收
+recorded_summary: 已有v3成片，模板明确以v3为定版基准；锁定文档仍称剧本候选版。正式配套母带在本集目录未找到。
+historical_stage_summary:
+  S9: 模板记v3定版及QC通过；本次只核对文件存在与技术参数

@@ -1,0 +1,76 @@
+{
+  "episode": "EP04",
+  "shot": 12,
+  "utterance_id": "EP04_SH012_U001",
+  "part": 1,
+  "character": "linwan",
+  "type": "narration",
+  "source_path": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\EP04\\01_剧本\\EP04_剧本.md",
+  "source_hash": "83a1c22ec12823ee54480d8a835c5133bd2754881b6f6ea1c9c08fdb0bef5ddb",
+  "source_lines": [
+    {
+      "line": 68,
+      "shot": 12,
+      "original_text": "（旁白）四十九岁以后。",
+      "text": "四十九岁以后。"
+    },
+    {
+      "line": 69,
+      "shot": 12,
+      "original_text": "（旁白）我第一次，重新介绍自己。",
+      "text": "我第一次，重新介绍自己。"
+    }
+  ],
+  "tts_text": "四十九岁以后。\n我第一次，重新介绍自己。",
+  "role_evidence": "剧本人物仅林晚，其他人物均不发声；第12镜旁白",
+  "status": "qc_pass",
+  "path": "D:\\文档\\短剧配音输出\\49岁我决定重新活一次\\20261002_222553_per_shot\\EP04\\wav\\EP04_SH012_U001_linwan_narration_P01_v001.wav",
+  "raw_path": "D:\\文档\\短剧配音输出\\49岁我决定重新活一次\\20261002_222553_per_shot\\EP04\\raw\\EP04_SH012_U001_linwan_narration_P01_v001.wav",
+  "sha256": "d21672e74dba70d589c94d6b0a1e919f47a894f2d91ec03a8c93f4beb864aaa0",
+  "raw_sha256": "34bea00263e4feb9347ff423e01e1eaaf498e0364d2d5d34a4a0fe761b07fe93",
+  "parameters": {
+    "cfg_strength": 3.2,
+    "speed": 0.9,
+    "seed": 2002,
+    "nfe_step": 48,
+    "sway_sampling_coef": -1.0,
+    "target_rms": 0.1,
+    "remove_silence": false,
+    "cross_fade_duration": 0.15,
+    "fix_duration": null
+  },
+  "duration": 4.839875,
+  "sample_rate": 24000,
+  "channels": 1,
+  "subtype": "PCM_16",
+  "peak": 0.84307861328125,
+  "rms": 0.12000007379628562,
+  "clipped_samples": 0,
+  "gain": 0.7090026138596985,
+  "elapsed_seconds": 3.6491575241088867,
+  "shot_window_seconds": 8,
+  "exceeds_window": false,
+  "human_approval": "pending",
+  "asr": {
+    "exit_code": 0,
+    "transcript": "49歲以後我第一次重新介紹自己"
+  },
+  "formal_path": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\EP04\\05_配音\\EP04_SH012_U001_linwan_narration_P01_v001.wav",
+  "shot_count": 12,
+  "narrated_shot_count": 1,
+  "wav_count": 1,
+  "silent_shots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "batch_path": "D:\\文档\\短剧配音输出\\49岁我决定重新活一次\\20261002_222553_per_shot"
+}

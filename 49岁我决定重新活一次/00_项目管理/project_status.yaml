@@ -1,0 +1,363 @@
+schema_version: '1.0'
+record_type: project
+project_id: 49-restart-shortdrama
+title: 49岁，我决定重新活一次
+workspace_root: D:\文档\ChatGPT\《49岁，我决定重新活一次》短剧
+content_root: D:\文档\ChatGPT\《49岁，我决定重新活一次》短剧\49岁我决定重新活一次
+management_root: D:\文档\ChatGPT\《49岁，我决定重新活一次》短剧\49岁我决定重新活一次\00_项目管理
+timezone: Asia/Shanghai
+updated_at: '2026-10-04T21:39:04+08:00'
+ruleset_version: '1.0'
+authority_sources:
+- id: VOICE_OUTER
+  topic: 外层配音规则：剪映AI配音
+  path: D:\文档\ChatGPT\《49岁，我决定重新活一次》短剧\voice_pipeline.md
+  path_base: absolute
+  sha256: f34bebe84fea1ae8ab8ff46b538f8d21bd686adb9e8366b2c959e8f6bfdae342
+  scope: project
+  evidence_ids:
+  - VOICE_OUTER
+  status: conflicting
+- id: VOICE_INNER
+  topic: 内层配音规则：人工录制禁AI
+  path: voice_pipeline.md
+  path_base: content_root
+  sha256: f2d1dd236bdf547b697570645324d8e086f3975ac1da761627065cf496483cc1
+  scope: project
+  evidence_ids:
+  - VOICE_INNER
+  status: conflicting
+- id: TEMPLATE
+  topic: 既有生产模板和历史修正
+  path: AI短剧自动生产模板_v1.md
+  path_base: content_root
+  sha256: 6143ad18ff083c8d859aa2587d0d1350d90fab857c216df87c0d83e8499c9eaa
+  scope: project
+  evidence_ids:
+  - TEMPLATE
+  status: source_record
+- id: CONFIG
+  topic: EP01回填配置及v3成片报告
+  path: episode_config.yaml
+  path_base: content_root
+  sha256: c15d027c9b55ff9a792c4d77bb972efb8e8277bbe8c14f5a3413556a9eb00f91
+  scope: project
+  evidence_ids:
+  - CONFIG
+  status: source_record
+- id: PROGRESS
+  topic: 旧项目进度；与已存在产物及后续记录不同步
+  path: 00_项目设定/剧情进度.md
+  path_base: content_root
+  sha256: 2a92a8f863a6d65aa0da51c446788ed823c7ca24a25b5d4727ba5bf8993bfa7d
+  scope: project
+  evidence_ids:
+  - PROGRESS
+  status: source_record
+- id: CHARACTER
+  topic: 角色身份与服装基础
+  path: 00_项目设定/人物档案.md
+  path_base: content_root
+  sha256: 3cbfcbbddf127f8eea8a3d9a4eac8e513b3c0481a9edbb9139e08b910d53fd2e
+  scope: project
+  evidence_ids:
+  - CHARACTER
+  status: source_record
+- id: SCENE
+  topic: 场景基础；初始待生成状态并非当前事实
+  path: 00_项目设定/场景档案.md
+  path_base: content_root
+  sha256: ec45cd7f27f760b0e30b521adb73eb3e27f54fb2b51c5928d5ac1090b22167e8
+  scope: project
+  evidence_ids:
+  - SCENE
+  status: source_record
+- id: SERIES
+  topic: 系列设定
+  path: 00_项目设定/系列总设定.md
+  path_base: content_root
+  sha256: 83c41ee85c85852075d86165f4e5e6ef959ec0c94aa5b7e6f1c4101cc08dcdf3
+  scope: project
+  evidence_ids:
+  - SERIES
+  status: source_record
+- id: STYLE
+  topic: 视觉风格
+  path: 00_项目设定/视觉风格.md
+  path_base: content_root
+  sha256: 5e9a566f0ba9d356342934ab3a0b772d348da5e199b46c06ff88a35f1aa47010
+  scope: project
+  evidence_ids:
+  - STYLE
+  status: source_record
+- id: VOICE_ARCHIVE
+  topic: 声音档案与后续配音规则需核对
+  path: 00_项目设定/声音档案.md
+  path_base: content_root
+  sha256: de7b8849e750ef915998d4aa044c67f02d3fed0ae7e9ceb15ab16657395ccf7b
+  scope: project
+  evidence_ids:
+  - VOICE_ARCHIVE
+  status: conflicting
+reference_baselines:
+- id: LW_IDENTITY_V2
+  kind: character
+  path: 01_角色参考图/林晚/林晚_01_固定标准角色图_v2.png
+  path_base: content_root
+  sha256: 60c7c365f7c9ef7b4d5329847c542dd621a581adfc76dffa4147ee0939555323
+  presence: present
+  adoption: confirmed
+  evidence_ids:
+  - CHARACTER
+  verification: character_confirmation_reported; scene_usage_recorded_but_archive_status_stale
+- id: HZ_IDENTITY
+  kind: character
+  path: 01_角色参考图/丈夫/丈夫_01_固定角色参考图.png
+  path_base: content_root
+  sha256: 838bd70c9f98788b57398cf1d3afcda64e44dfe6ef632580684d205305bf3c43
+  presence: present
+  adoption: confirmed
+  evidence_ids:
+  - CHARACTER
+  verification: character_confirmation_reported; scene_usage_recorded_but_archive_status_stale
+- id: SC-A
+  kind: scene
+  path: 02_场景参考图/婚姻时期住宅/SC-A_01_餐厅全景.png
+  path_base: content_root
+  sha256: 2d75dd1474689bd77673e1968a01ff226d2058a5877ca9ba26c48b9ca55ce595
+  presence: present
+  adoption: candidate
+  evidence_ids:
+  - SCENE
+  verification: character_confirmation_reported; scene_usage_recorded_but_archive_status_stale
+- id: SC-B
+  kind: scene
+  path: 02_场景参考图/老房子外景/SC-B_01_外景.png
+  path_base: content_root
+  sha256: 9d3278cd0a8720107dd616b7b53bb3a1a5a7855c5094f6c1a03b82a3ace613c9
+  presence: present
+  adoption: candidate
+  evidence_ids:
+  - SCENE
+  verification: character_confirmation_reported; scene_usage_recorded_but_archive_status_stale
+- id: SC-C
+  kind: scene
+  path: 02_场景参考图/老房子客厅/SC-C_01_客厅未开窗.png
+  path_base: content_root
+  sha256: 976a0e63f22ada70b3ebda3a9e037815dac73ccd09dab41c36f8a5758df1a562
+  presence: present
+  adoption: candidate
+  evidence_ids:
+  - SCENE
+  verification: character_confirmation_reported; scene_usage_recorded_but_archive_status_stale
+episodes:
+- episode_id: EP01
+  status_path: episodes/EP01/episode_status.yaml
+- episode_id: EP02
+  status_path: episodes/EP02/episode_status.yaml
+- episode_id: EP03
+  status_path: episodes/EP03/episode_status.yaml
+- episode_id: EP04
+  status_path: episodes/EP04/episode_status.yaml
+conflicts:
+- id: VOICE_AUTHORITY
+  topic: 配音权威及外部资产根路径冲突
+  sources:
+  - VOICE_OUTER
+  - VOICE_INNER
+  conflicting_claims:
+  - 外层：剪映AI配音v1，E:\E视频制作专用
+  - 内层：人工录制、禁AI，E:\视频制作专用
+  affected_stages:
+  - S5
+  - S6
+  - S7
+  - S9
+  status: open
+  resolution: null
+  resolution_evidence_ids: []
+  scope: 未来制作与未封版版本；不自动撤销已有明确封版
+- id: STALE_PROGRESS
+  topic: 公共档案及进度仍有前期未制作表述
+  sources:
+  - PROGRESS
+  - CHARACTER
+  - SCENE
+  conflicting_claims:
+  - 公共文档部分仍称参考图/EP01尚未制作
+  - 当前已存在参考图及EP01-EP03多版成片，EP03有后续封版记录
+  affected_stages:
+  - S0
+  status: open
+  resolution: 保留旧文档；新台账按具体证据分别登记，不改原文件
+  resolution_evidence_ids: []
+blockers:
+- id: VOICE_AUTHORITY
+  affected_episode_ids:
+  - EP01
+  - EP02
+  - EP04
+  affected_stages:
+  - S5
+  - S6
+  - S7
+  - S9
+  reason: 声音规范尚有冲突，不能据此选择新正式声音
+  evidence_ids:
+  - VOICE_OUTER
+  - VOICE_INNER
+archive_plan: []
+evidence:
+- id: VOICE_OUTER
+  kind: document_report
+  source_path: D:\文档\ChatGPT\《49岁，我决定重新活一次》短剧\voice_pipeline.md
+  path_base: absolute
+  locator: null
+  source_sha256: f34bebe84fea1ae8ab8ff46b538f8d21bd686adb9e8366b2c959e8f6bfdae342
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 外层配音规则：剪映AI配音
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: VOICE_INNER
+  kind: document_report
+  source_path: voice_pipeline.md
+  path_base: content_root
+  locator: null
+  source_sha256: f2d1dd236bdf547b697570645324d8e086f3975ac1da761627065cf496483cc1
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 内层配音规则：人工录制禁AI
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: TEMPLATE
+  kind: document_report
+  source_path: AI短剧自动生产模板_v1.md
+  path_base: content_root
+  locator: null
+  source_sha256: 6143ad18ff083c8d859aa2587d0d1350d90fab857c216df87c0d83e8499c9eaa
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 既有生产模板和历史修正
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: CONFIG
+  kind: document_report
+  source_path: episode_config.yaml
+  path_base: content_root
+  locator: null
+  source_sha256: c15d027c9b55ff9a792c4d77bb972efb8e8277bbe8c14f5a3413556a9eb00f91
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: EP01回填配置及v3成片报告
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: PROGRESS
+  kind: document_report
+  source_path: 00_项目设定/剧情进度.md
+  path_base: content_root
+  locator: null
+  source_sha256: 2a92a8f863a6d65aa0da51c446788ed823c7ca24a25b5d4727ba5bf8993bfa7d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 旧项目进度；与已存在产物及后续记录不同步
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: CHARACTER
+  kind: document_report
+  source_path: 00_项目设定/人物档案.md
+  path_base: content_root
+  locator: null
+  source_sha256: 3cbfcbbddf127f8eea8a3d9a4eac8e513b3c0481a9edbb9139e08b910d53fd2e
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 角色身份与服装基础
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: SCENE
+  kind: document_report
+  source_path: 00_项目设定/场景档案.md
+  path_base: content_root
+  locator: null
+  source_sha256: ec45cd7f27f760b0e30b521adb73eb3e27f54fb2b51c5928d5ac1090b22167e8
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 场景基础；初始待生成状态并非当前事实
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: SERIES
+  kind: document_report
+  source_path: 00_项目设定/系列总设定.md
+  path_base: content_root
+  locator: null
+  source_sha256: 83c41ee85c85852075d86165f4e5e6ef959ec0c94aa5b7e6f1c4101cc08dcdf3
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 系列设定
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: STYLE
+  kind: document_report
+  source_path: 00_项目设定/视觉风格.md
+  path_base: content_root
+  locator: null
+  source_sha256: 5e9a566f0ba9d356342934ab3a0b772d348da5e199b46c06ff88a35f1aa47010
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 视觉风格
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: VOICE_ARCHIVE
+  kind: document_report
+  source_path: 00_项目设定/声音档案.md
+  path_base: content_root
+  locator: null
+  source_sha256: de7b8849e750ef915998d4aa044c67f02d3fed0ae7e9ceb15ab16657395ccf7b
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 声音档案与后续配音规则需核对
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP01-EP04初始化
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - VOICE_OUTER
+  - VOICE_INNER
+  - CONFIG
+  - PROGRESS
+  before: null
+  after: initialized
+initialization_scope:
+  episodes:
+  - EP01
+  - EP02
+  - EP03
+  - EP04
+  mode: read_existing_records_and_media_metadata
+  media_generated: false
+  visual_review_performed: false
+  audio_listening_performed: false
+  full_decode_performed: false
+  rule: 历史报告结论与本次实测分别记录；没有重做验收或授权下一阶段。
+  filename_convention: 为遵守仅创建三类文件名，每镜采用shots/EPxx_SHnnn/shot_status.yaml
+preservation_check:
+  scope: 工作区已有文件，排除.git和新管理目录
+  original_file_count: 8197
+  before_manifest_sha256: 2ff286b63750a7aef7b86c07c8cabed574bfcf3bcaa0566289cb37c84b90768b
+  method: 按相对路径对已有文件SHA-256排序后汇总；写入后独立复核
+  result: verified
+  after_manifest_sha256: 2ff286b63750a7aef7b86c07c8cabed574bfcf3bcaa0566289cb37c84b90768b
+  verified_after_creation: true
+  verified_at: '2026-10-04T21:46:02+08:00'

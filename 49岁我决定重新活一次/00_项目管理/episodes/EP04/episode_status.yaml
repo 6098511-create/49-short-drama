@@ -1,0 +1,562 @@
+schema_version: '1.0'
+record_type: episode
+episode_id: EP04
+title: 重新介绍自己
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V3_handwritten_mobile
+script:
+  path: EP04/01_剧本/EP04_剧本.md
+  path_base: content_root
+  sha256: 83a1c22ec12823ee54480d8a835c5133bd2754881b6f6ea1c9c08fdb0bef5ddb
+  adoption: candidate
+  evidence_ids:
+  - SCRIPT
+storyboard:
+  path: EP04/02_分镜/EP04_正式分镜表.md
+  path_base: content_root
+  sha256: 260076e006de0b88740edc096d8df3d42e2dcc7dfd1581bee8f65d48c8d748d8
+  adoption: candidate
+  evidence_ids:
+  - STORYBOARD
+directory_map:
+  script: EP04/01_剧本
+  storyboard: EP04/02_分镜
+  first_frames: EP04/03_首帧
+  video_shots: EP04/04_视频镜头
+  voice: EP04/05_配音
+  audio_engineering: EP04/06_音频工程
+  subtitles: EP04/07_字幕
+  roughcut: EP04/08_粗剪预览
+  final: EP04/09_最终成片
+shot_count_expected: 12
+shots:
+- shot_id: EP04_SH001
+  status_path: episodes/EP04/shots/EP04_SH001/shot_status.yaml
+- shot_id: EP04_SH002
+  status_path: episodes/EP04/shots/EP04_SH002/shot_status.yaml
+- shot_id: EP04_SH003
+  status_path: episodes/EP04/shots/EP04_SH003/shot_status.yaml
+- shot_id: EP04_SH004
+  status_path: episodes/EP04/shots/EP04_SH004/shot_status.yaml
+- shot_id: EP04_SH005
+  status_path: episodes/EP04/shots/EP04_SH005/shot_status.yaml
+- shot_id: EP04_SH006
+  status_path: episodes/EP04/shots/EP04_SH006/shot_status.yaml
+- shot_id: EP04_SH007
+  status_path: episodes/EP04/shots/EP04_SH007/shot_status.yaml
+- shot_id: EP04_SH008
+  status_path: episodes/EP04/shots/EP04_SH008/shot_status.yaml
+- shot_id: EP04_SH009
+  status_path: episodes/EP04/shots/EP04_SH009/shot_status.yaml
+- shot_id: EP04_SH010
+  status_path: episodes/EP04/shots/EP04_SH010/shot_status.yaml
+- shot_id: EP04_SH011
+  status_path: episodes/EP04/shots/EP04_SH011/shot_status.yaml
+- shot_id: EP04_SH012
+  status_path: episodes/EP04/shots/EP04_SH012/shot_status.yaml
+timeline:
+  planned_duration_s: 59.0
+  actual_duration_s: null
+  actual_frame_count: null
+  basis_asset_ids: []
+  evidence_ids: []
+  planned_duration_note: 各镜分镜时长求和；EP03标题约60秒/含渐黑62秒另作历史说明
+stages:
+  S0:
+    status: awaiting_review
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S1:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S2:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S3:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S4:
+    status: awaiting_review
+    evidence_ids:
+    - SCAN
+    - S3_REPORT
+    - OLD_LOCK
+    blockers: []
+    invalidated_by: []
+    status_note: 待补新版S4逐镜采用与验收；08/09/10登记历史复用
+  S5:
+    status: blocked
+    evidence_ids:
+    - VOICE_LIST
+    - SCAN
+    - project_status.yaml#VOICE_OUTER
+    - project_status.yaml#VOICE_INNER
+    blockers:
+    - VOICE_AUTHORITY
+    - EP04_FORMAL_VOICE
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S6:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S7:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S8:
+    status: needs_recheck
+    evidence_ids:
+    - SCAN
+    - STORYBOARD
+    blockers: []
+    invalidated_by: []
+    status_note: 初始化未重做全阶段QC；保留历史完成记录，不要求自动返工
+  S9:
+    status: blocked
+    evidence_ids:
+    - SCAN
+    - TEST_REPORT
+    blockers:
+    - EP04_NEW_S4
+    - EP04_FORMAL_VOICE
+    invalidated_by: []
+    status_note: 未见当前V3正式成片；新版S4采用与正式声音尚不明确，不从空目录推断从未开始制作
+continuity:
+  predecessor_episode_id: EP03
+  inherited_end_state_evidence_ids: []
+  story_time: 承接EP03同日近午→次日
+  character_baseline_ids:
+  - LW_IDENTITY_V2
+  scene_baseline_ids:
+  - SC-C
+  initial_prop_states: []
+  end_prop_states: []
+  evidence_ids:
+  - SCRIPT
+  - STORYBOARD
+selected_assets:
+- shot_id: EP04_SH001
+  kind: first_frame
+  asset_id: EP04_first_frame_fd465c8977_9e82d3d0
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH002
+  kind: first_frame
+  asset_id: EP04_first_frame_2acaad1350_1a0a3686
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH003
+  kind: first_frame
+  asset_id: EP04_first_frame_03555fd7e9_db61a0f7
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH004
+  kind: first_frame
+  asset_id: EP04_first_frame_e6e409edbf_75a64feb
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH005
+  kind: first_frame
+  asset_id: EP04_first_frame_1561452344_8278541c
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH006
+  kind: first_frame
+  asset_id: EP04_first_frame_87caa4a5e3_0e6eb655
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH007
+  kind: first_frame
+  asset_id: EP04_first_frame_f00b7f38b1_bca2ed5c
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH008
+  kind: first_frame
+  asset_id: EP04_first_frame_25531a7eba_da14843a
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH008
+  kind: video
+  asset_id: EP04_video_c3544b9068_3967d4cf
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH009
+  kind: first_frame
+  asset_id: EP04_first_frame_3248469591_90e3ee7d
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH009
+  kind: video
+  asset_id: EP04_video_512d91f1fd_d7bb5271
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH010
+  kind: first_frame
+  asset_id: EP04_first_frame_4291bd4b1d_8fab6e22
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH010
+  kind: video
+  asset_id: EP04_video_e3c104d410_194c97cb
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH011
+  kind: first_frame
+  asset_id: EP04_first_frame_db26376cdd_668fd8ee
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+- shot_id: EP04_SH012
+  kind: first_frame
+  asset_id: EP04_first_frame_841457652a_f2e47300
+  decision_evidence_ids:
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+assets:
+- asset_id: EP04_subtitle_e1641a6078_cdb374bc
+  kind: subtitle
+  path: EP04/07_字幕/EP04_字幕.ass
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: cdb374bcf1b0fdc79e517d8992161c33d97cdd59a788d7211b44a4b5d392f1f8
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical: {}
+  size_bytes: 3397
+  technical_verification: not_measured
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP04_roughcut_97f73e312f_5f8a4900
+  kind: roughcut
+  path: EP04/08_粗剪预览/EP04_粗剪_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 5f8a49001f4d154f1ddd3ea8b40cc6b3442dfd04913ed58082ccc4efa287de36
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical: {}
+  size_bytes: 34445707
+  technical_verification: not_measured
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP04_roughcut_90f4dd42e1_ae25a5b2
+  kind: roughcut
+  path: EP04/08_粗剪预览/EP04_粗剪_字幕预览.mp4
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: ae25a5b275af6a237c2108bf04d69fedaaf5e50000e3d2384cc7bb6dc7dfe5ca
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical: {}
+  size_bytes: 23751768
+  technical_verification: not_measured
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP04_roughcut_0b58240772_575fd8c2
+  kind: roughcut
+  path: EP04/08_粗剪预览/后期合成测试_v001/EP04_后期合成测试_v001.mp4
+  path_base: content_root
+  version_label: v001
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 575fd8c27dd6c3880e0c96266bdccf4d16a00b363b44a13da11f79d188a9ce71
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - SCAN
+  supersedes_asset_id: null
+  technical: {}
+  size_bytes: 28965799
+  technical_verification: not_measured
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+output_profile:
+  width: 1080
+  height: 1920
+  fps: 24/1
+  video_codec: h264
+  audio_sample_rate: 48000
+  audio_channels: 2
+  evidence_ids:
+  - project_status.yaml#TEMPLATE
+  status: template_target_not_new_approval
+delivery:
+  final_asset_id: null
+  subtitle_asset_id: null
+  audio_master_asset_id: null
+  input_asset_ids: []
+  lock_evidence_ids: []
+release:
+  status: unknown
+  destination: null
+  released_at: null
+  evidence_ids: []
+  notes: 发布版/对外发布用命名不等于已上传平台；未见可核实平台发布记录
+qc_results: []
+accepted_exceptions: []
+conflicts: []
+open_issues:
+- id: EP04_NEW_S4
+  severity: blocker
+  scope: episode
+  description: 新版S4验收缺失，不能沿用电脑版锁定报告
+  evidence_ids:
+  - OLD_LOCK
+  - SCAN
+  - S3_REPORT
+  status: open
+- id: EP04_FORMAL_VOICE
+  severity: blocker
+  scope: episode
+  description: 项目内仅见F5测试旁白，未找到人工配音清单要求的新正式录音；外部盘未扫描
+  evidence_ids:
+  - VOICE_LIST
+  - SCAN
+  status: open
+- id: EP04_SCENE_LIGHT
+  severity: review
+  scope: episode
+  description: 10→11→12光线承接待按当前视频核对
+  evidence_ids:
+  - S3_REPORT
+  status: open
+- id: EP04_SCREEN_TEXT
+  severity: review
+  scope: episode
+  description: 现行V3后期界面字与字卡尚需独立登记，不能沿用电脑版测试字幕
+  evidence_ids:
+  - STORYBOARD
+  - TEST_REPORT
+  status: open
+evidence:
+- id: SCRIPT
+  kind: document_report
+  source_path: EP04/01_剧本/EP04_剧本.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 83a1c22ec12823ee54480d8a835c5133bd2754881b6f6ea1c9c08fdb0bef5ddb
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 当前磁盘剧本/分镜原文；状态文字可能滞后于后续验收
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: STORYBOARD
+  kind: document_report
+  source_path: EP04/02_分镜/EP04_正式分镜表.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 260076e006de0b88740edc096d8df3d42e2dcc7dfd1581bee8f65d48c8d748d8
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 当前磁盘剧本/分镜原文；状态文字可能滞后于后续验收
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: S3_REPORT
+  kind: document_report
+  source_path: EP04/03_首帧/S3_首帧自检报告_v2.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 798340ce13947796fc2e3735a8d29833d52baf27435dc9825436b4f9a3691158
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: EP04手写手机版12张正式首帧：9张重做、08/09/10复用；报告记载已验收。不是新版视频验收。
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: OLD_S4
+  kind: document_report
+  source_path: EP04/04_视频镜头/S4_视频自检报告.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 56276e381c853be8f7bcbdfafa67df321b821cb51b3cf235a69ebf551271bd0d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 旧电脑版视频自检，不能用于新版手机剧情视频。
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: OLD_LOCK
+  kind: document_report
+  source_path: EP04/04_视频镜头/EP04_S4_锁定确认.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 55a8e0f122ffc4d2ee17b8b7ce32fc4ee8a2248a1a4cc9a2188e5286ace303d5
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 旧电脑版12段v1曾锁定，例外只适用于所述旧资产。
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: DIFF
+  kind: document_report
+  source_path: EP04/02_分镜/EP04_S0-S2差异检查报告.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 542c287f036bbe6ec3b73c19d303e69d37f67b505260a4fb8eb7a88d89ae6c14
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 历史差异报告；需对照后续记录，不能把所有待办仍当作未完成。
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: PREP
+  kind: document_report
+  source_path: EP04/02_分镜/EP04_S3前准备_重做9镜.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 0047e9ac675d6162c2af7d5cdeb60d23c727833c48cd72114e6309c1db7e88f8
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 方案A手写手机剧情准备；文内归档范围存在9镜/12镜表述不一致，以后续明确记录为依据。
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: VOICE_LIST
+  kind: document_report
+  source_path: EP04/05_配音/EP04_人工配音清单.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 4b4d28a1b9d380bbbea8383375d23b6a3c1cd8dd56530479ee6b57b0a175b58d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 人工配音需求与台词清单；清单本身不证明配音文件已录制或验收。
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: TEST_REPORT
+  kind: document_report
+  source_path: EP04/08_粗剪预览/后期合成测试_v001/检查报告.md
+  path_base: content_root
+  locator: 全文
+  source_sha256: 850b819677b002cecf4214cfee12cd552e4981000f1629d24694ccde2d8a335d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 旧EP04后期流程测试报告，不是当前V3正式成片验收。
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+- id: SCAN
+  kind: current_inspection
+  source_path: EP04
+  path_base: content_root
+  locator: 文件名、SHA-256；ffprobe媒体元数据；未观看或听审
+  source_sha256: null
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 只读磁盘盘点；不是全片解码或视觉/声音QC
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: verified
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP04
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - SCAN
+  - SCRIPT
+  - STORYBOARD
+  before: null
+  after: initialized
+inspection_scope: 盘点、元数据实测和历史证据登记；视觉/动作/听感未在本次重新验收
+recorded_summary: 手写手机版首帧报告记12张已验收；9个重做镜头均有v2视频，12镜另有v3；缺少对应新版S4正式采用及验收记录；无09最终成片文件。
+historical_stage_summary:
+  S3: 新版报告记12张已转正
+  S4: 旧电脑版报告已锁定，不能用于新版
+  S8: 旧剧情流程测试已跑通，不等于当前V3正式后期
+reported_decisions:
+- shot_ids:
+  - EP04_SH005
+  topic: 过肩俯视的视角变化
+  decision: 新版首帧报告记用户已接受
+  evidence_ids:
+  - S3_REPORT
+  scope: 当前命名EP04_05.png的首帧，不代表对应视频已验收
+  verification: reported
+  asset_identity_note: 按历史报告原范围登记，不凭当前哈希反推历史文件从未变化
+- shot_ids:
+  - EP04_SH006
+  topic: 由单手持机变双手捧手机
+  decision: 新版首帧报告记已验收
+  evidence_ids:
+  - S3_REPORT
+  scope: 06转正首帧；双手机的EP04_06_v2.png仍为拒绝稿
+  verification: reported
+  asset_identity_note: 按历史报告原范围登记，不凭当前哈希反推历史文件从未变化
+- shot_ids:
+  - EP04_SH001
+  topic: 收音机、陶罐、相框
+  decision: 仅记录未提异议，不能当作明确确认
+  evidence_ids:
+  - S3_REPORT
+  scope: 观察项
+  verification: reported
+  asset_identity_note: 按历史报告原范围登记，不凭当前哈希反推历史文件从未变化
+- shot_ids:
+  - EP04_SH011
+  - EP04_SH012
+  topic: 光线不变
+  decision: 报告记按用户指令沿用；10到11接点仍需复核
+  evidence_ids:
+  - S3_REPORT
+  scope: 首帧指令，不自动证明当前视频色温连续
+  verification: reported
+  asset_identity_note: 按历史报告原范围登记，不凭当前哈希反推历史文件从未变化
+- shot_ids: []
+  topic: 电脑品牌、杯型与家具细节漂移
+  decision: 旧锁定报告记接受，不返工
+  evidence_ids:
+  - OLD_LOCK
+  scope: 仅旧电脑版v1，不能套用于新版手机剧情
+  verification: reported
+  asset_identity_note: 按历史报告原范围登记，不凭当前哈希反推历史文件从未变化

@@ -1,0 +1,253 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP02
+shot_id: EP02_SH007
+sequence: 7
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP02/02_分镜/EP02_正式分镜表.md
+  path_base: content_root
+  sha256: 47489d6b618263d8ce1f691b26ee2877299ed24503ee65e459d1487df50030b1
+previous_shot_id: EP02_SH006
+next_shot_id: EP02_SH008
+requirements:
+  description: 林晚起身走回入口，弯腰拉开深灰行李箱拉链，拿出几件衣服，叠作枕头与盖的，把休息位再理清。
+  framing: 中景
+  planned_duration_s: 5.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: LW-C02
+    expected_visible_features: []
+  scene:
+    scene_id: SC-C
+    state_revision: null
+    story_time: 回老房子的第一晚，傍晚→夜
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#STORYBOARD
+  source_fields:
+    镜头编号: EP02_07
+    时长: 5s
+    景别: 中景
+    画面内容: 林晚起身走回入口，弯腰拉开深灰行李箱拉链，拿出几件衣服，叠作枕头与盖的，把休息位再理清。
+    台词: —
+    音效: 拉链声；布料声
+    服装道具: 同上；深灰行李箱（开）；衣服
+    参考图: 林晚_01_v2；林晚_04_正面全身；SC-C_01 客厅未开窗
+assets:
+- asset_id: EP02_first_frame_d92c2137ea_c685118f
+  kind: first_frame
+  path: EP02/03_首帧/EP02_07.png
+  path_base: content_root
+  version_label: null
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: c685118f1cd89b17d56e41ccac6e3ff7b3ca98ca2f0bb5b36d88d8aa8609543a
+  presence: present
+  qc_status: needs_recheck
+  adoption: confirmed
+  applicability: current
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  - episodes/EP02/episode_status.yaml#STATUS
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1818315
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP02_first_frame_d6edd1ffc8_2ce91948
+  kind: first_frame
+  path: EP02/03_首帧/EP02_07_old.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 2ce91948e40c554460b818c1654783233e478f30334d07a1ad3b4d776c892b75
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1923449
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP02_first_frame_0b8ad7b4aa_0f586b70
+  kind: first_frame
+  path: EP02/03_首帧/EP02_07_v2.png
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 0f586b707efcb39459f36715b368f6a251f5b47ff0b01f002e4f58d37b909c3d
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 864
+    height: 1536
+  size_bytes: 1909666
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP02_video_d00e929846_63592f43
+  kind: video
+  path: EP02/04_视频镜头/EP02_07_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 63592f43b2a62a3f5128fd58971eb4cf0a0d4134e41402d63b999267b2bfc24e
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  - episodes/EP02/episode_status.yaml#STATUS
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 6942200
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP02_video_630c60a99d_ff341dde
+  kind: video
+  path: EP02/04_视频镜头/EP02_07_video_v2.mp4
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: ff341dde9ccd6dd9dbd56983e7daefdab9a2d8f06b9f279b833342b73600788d
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1920
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 6472336
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+selected_assets:
+  first_frame:
+    asset_id: EP02_first_frame_d92c2137ea_c685118f
+    decision_evidence_ids:
+    - episodes/EP02/episode_status.yaml#STATUS
+  video:
+    asset_id: EP02_video_d00e929846_63592f43
+    decision_evidence_ids:
+    - episodes/EP02/episode_status.yaml#STATUS
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP02_video_d00e929846_63592f43
+  - EP02_video_630c60a99d_ff341dde
+  asset_sha256s:
+  - 63592f43b2a62a3f5128fd58971eb4cf0a0d4134e41402d63b999267b2bfc24e
+  - ff341dde9ccd6dd9dbd56983e7daefdab9a2d8f06b9f279b833342b73600788d
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues:
+- id: EP02_SH007_VERSIONS
+  severity: review
+  scope: EP02_SH007
+  description: 除历史清单v1外存在v2视频；后续采用证据尚未找到，历史选用不能代替当前裁定
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#STATUS
+  - episodes/EP02/episode_status.yaml#SCAN
+  status: open
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP02/02_分镜/EP02_正式分镜表.md
+  path_base: content_root
+  locator: EP02_07
+  source_sha256: 47489d6b618263d8ce1f691b26ee2877299ed24503ee65e459d1487df50030b1
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP02_SH007
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP02/episode_status.yaml#SCAN
+  - episodes/EP02/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

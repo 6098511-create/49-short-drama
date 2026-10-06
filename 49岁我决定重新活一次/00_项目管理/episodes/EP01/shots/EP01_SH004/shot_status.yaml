@@ -1,0 +1,211 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP01
+shot_id: EP01_SH004
+sequence: 4
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+previous_shot_id: EP01_SH003
+next_shot_id: EP01_SH005
+requirements:
+  description: 林晚俯身吹灭生日蜡烛；蛋糕没有切。
+  framing: 侧面近景
+  planned_duration_s: 5.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: null
+    expected_visible_features: []
+  scene:
+    scene_id: SC-A
+    state_revision: null
+    story_time: 生日傍晚→次日→手续办妥后搬离
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  source_fields:
+    字段: 内容
+    '---': '---'
+    镜头编号: EP01_04
+    时长: '5'
+    场景: SC-A 婚姻时期住宅餐厅／接上一镜
+    人物: 林晚
+    景别: 侧面近景
+    机位: 林晚右前方约45度，包含侧脸与蜡烛，固定镜头
+    画面内容: 林晚俯身吹灭生日蜡烛；蛋糕没有切。
+    人物动作: 缓慢稍俯身，轻吹一次，蜡烛熄灭后停住。
+    人物表情: 疲惫与克制的难过，动作很轻。
+    对白: 无
+    旁白: 那天，我四十九岁。结婚二十七年。
+    环境音: 轻轻吹气声；室内安静底噪
+    首帧生成提示词: 9:16竖屏，写实中国生活摄影，暖灰自然光，轻微胶片感，真实皮肤、适度景深，无水印、无乱码。凡林晚入画，必须引用已确认v2及本行指定角色库图片，锁定49岁林晚的脸型、五官比例、眼鼻嘴、发际线和黑色低马尾，不重新设计面孔，不明显年轻化。空间严格参考SC-A：长方木桌、白色圆罩吊灯、画面左后方玄关门洞与棕色入户门、右后方餐边柜、右侧窗，家具关系不变。引用林晚右45度与v2，米白针织衫。首帧她尚未俯身，单根蜡烛点燃，蛋糕在她近前；右前方协议留在原位。构图集中脸和蜡烛，不新增手部动作，不生成蛋糕文字。
+    视频动作提示词: 固定镜头。林晚慢慢俯身，对蜡烛轻吹一次，火焰自然熄灭，随后短暂停住。只有少量自然烛烟，物品位置不变。画内不说话，旁白后期配入。
+    引用的角色参考图: 01_角色参考图/林晚/林晚_01_固定标准角色图_v2.png；01_角色参考图/林晚/林晚_03_右45度.png；01_角色参考图/林晚/林晚_06_克制难过.png
+    引用的场景参考图: 02_场景参考图/婚姻时期住宅/SC-A_01_餐厅全景.png
+    生成难度: 中：吹气与烛火变化
+    连续性注意事项: 00:16—00:21。01—03蜡烛始终点燃，到此镜才熄灭。蛋糕未切，协议未签。不要因俯身改变面部结构；旁白时长待真实配音核对。
+assets:
+- asset_id: EP01_first_frame_2d7933e143_13a5fafd
+  kind: first_frame
+  path: EP01/03_首帧/EP01_04.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 13a5fafdf724b06d4baab8a1699397fea16accab387785c249a88282b9d7dc4d
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 941
+    height: 1672
+  size_bytes: 1981449
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_video_a690eae7b4_e54c1ed5
+  kind: video
+  path: EP01/04_视频镜头/EP01_04_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: e54c1ed55330559d24592fdff426f0411bd38b8069c5906819523533945e8cf7
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#LOCK
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1916
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 5978339
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP01_voice_d236e0f3ec_f3305e73
+  kind: voice
+  path: EP01/05_配音/01_正式语音素材/EP01_04_林晚_旁白.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: f3305e733c70fb61a011ab88fd8407389dc72437d5d9cff68a7b500d97aa00b7
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: null
+    height: null
+    fps: null
+    frame_count: null
+    duration_s: 7.338667
+    video_codec: null
+    pixel_format: null
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: pcm_s16le
+  size_bytes: 1409102
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: unverified
+selected_assets:
+  first_frame:
+    asset_id: null
+    decision_evidence_ids: []
+  video:
+    asset_id: EP01_video_a690eae7b4_e54c1ed5
+    decision_evidence_ids:
+    - episodes/EP01/episode_status.yaml#LOCK
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP01_video_a690eae7b4_e54c1ed5
+  - EP01_voice_d236e0f3ec_f3305e73
+  asset_sha256s:
+  - e54c1ed55330559d24592fdff426f0411bd38b8069c5906819523533945e8cf7
+  - f3305e733c70fb61a011ab88fd8407389dc72437d5d9cff68a7b500d97aa00b7
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  locator: EP01_04
+  source_sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP01_SH004
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

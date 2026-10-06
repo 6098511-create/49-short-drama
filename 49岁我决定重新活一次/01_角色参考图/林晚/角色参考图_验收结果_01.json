@@ -1,0 +1,138 @@
+{
+  "stage": "角色参考图验收",
+  "status": "初检完成，等待用户确认",
+  "fixedAge": 49,
+  "canonicalImage": "林晚_01_固定标准角色图_v2.png",
+  "canonicalSha256": "60c7c365f7c9ef7b4d5329847c542dd621a581adfc76dffa4147ee0939555323",
+  "prohibitedReference": "林晚_01_正面半身_v1_未通过.png",
+  "regeneratedThisTurn": [],
+  "overwrittenThisTurn": [],
+  "checks": [
+    {
+      "id": "01",
+      "name": "林晚_01_固定标准角色图_v2.png",
+      "result": "用户已确认的唯一标准；本轮核对SHA256不变。"
+    },
+    {
+      "id": "02",
+      "name": "林晚_02_左45度.png",
+      "result": "左侧斜面、鼻尖朝画面右；五官与下颌延续v2，脸部变窄属于透视，未见明显漂移。"
+    },
+    {
+      "id": "03",
+      "name": "林晚_03_右45度.png",
+      "result": "右侧斜面、鼻尖朝画面左；眉眼鼻唇特征及低马尾延续，未见明显漂移。"
+    },
+    {
+      "id": "04",
+      "name": "林晚_04_正面全身.png",
+      "result": "面部特征与v2连贯，普通体型和四肢比例自然，手脚和平底鞋未见明显异常；全身图脸部较小，细节少于半身图。"
+    },
+    {
+      "id": "05",
+      "name": "林晚_05_自然微笑.png",
+      "result": "闭唇轻笑、嘴角略上扬；眉眼鼻部和发际线保持，未见明显换脸。"
+    },
+    {
+      "id": "06",
+      "name": "林晚_06_克制难过.png",
+      "result": "目光略低、眉间轻紧张、唇自然闭合；五官结构和成熟程度延续，无哭泣或明显漂移。"
+    },
+    {
+      "id": "07",
+      "name": "林晚_07_平静.png",
+      "result": "眉额放松、目光安定；与标准图差异很小，属于刻意克制的表情变化。"
+    },
+    {
+      "id": "08",
+      "name": "林晚_08_疲惫.png",
+      "result": "上眼睑略沉、目光较松；未靠明显变老或消瘦表现疲惫，五官与低马尾保持。"
+    }
+  ],
+  "files": [
+    {
+      "id": "02",
+      "name": "林晚_02_左45度.png",
+      "title": "左45度半身",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0ec08-df26-7b31-b679-a2bb3b37d538\\exec-83c5e09e-f578-4e8d-99d7-84ddf21aa79d.png",
+      "target": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\01_角色参考图\\林晚\\林晚_02_左45度.png",
+      "bytes": 1917986,
+      "width": 941,
+      "height": 1672,
+      "sha256": "196f0acab8569897da190a0a6cac1e780e69589ba11face84994154e7122f72e",
+      "action": "新增目标文件，原件保留"
+    },
+    {
+      "id": "03",
+      "name": "林晚_03_右45度.png",
+      "title": "右45度半身",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0ec08-df26-7b31-b679-a2bb3b37d538\\exec-745cee7a-e399-4489-a275-71efcee5b764.png",
+      "target": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\01_角色参考图\\林晚\\林晚_03_右45度.png",
+      "bytes": 2079598,
+      "width": 941,
+      "height": 1672,
+      "sha256": "0a5065a601e82de10758894dab9dd44f8ad9c1c2d5cbb221979a53d480b2d0e9",
+      "action": "新增目标文件，原件保留"
+    },
+    {
+      "id": "04",
+      "name": "林晚_04_正面全身.png",
+      "title": "正面全身",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0ec08-df26-7b31-b679-a2bb3b37d538\\exec-d5f0f4e0-882b-4b63-ae88-3ba1eeaa7129.png",
+      "target": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\01_角色参考图\\林晚\\林晚_04_正面全身.png",
+      "bytes": 1769601,
+      "width": 941,
+      "height": 1672,
+      "sha256": "c94e072eabb407950c7e54092eae81d556ff963793566efdeb958edf01693d09",
+      "action": "新增目标文件，原件保留"
+    },
+    {
+      "id": "05",
+      "name": "林晚_05_自然微笑.png",
+      "title": "自然微笑",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0ec08-df26-7b31-b679-a2bb3b37d538\\exec-e77fad65-dd52-47bb-b7ca-2d7f8d09774c.png",
+      "target": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\01_角色参考图\\林晚\\林晚_05_自然微笑.png",
+      "bytes": 1957697,
+      "width": 941,
+      "height": 1672,
+      "sha256": "da0b17d339f0de6285fde3a1ff295ac8bc0383b71ce50f73d7c6f8c746d60159",
+      "action": "新增目标文件，原件保留"
+    },
+    {
+      "id": "06",
+      "name": "林晚_06_克制难过.png",
+      "title": "克制难过",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0ec08-df26-7b31-b679-a2bb3b37d538\\exec-38995d60-d7db-47d7-81ce-4f3e09dffab6.png",
+      "target": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\01_角色参考图\\林晚\\林晚_06_克制难过.png",
+      "bytes": 1912974,
+      "width": 941,
+      "height": 1672,
+      "sha256": "26fd50de14493b3461063072831e1de8d54d5ee42d6411eb683bac792370cf47",
+      "action": "新增目标文件，原件保留"
+    },
+    {
+      "id": "07",
+      "name": "林晚_07_平静.png",
+      "title": "平静状态",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0ec08-df26-7b31-b679-a2bb3b37d538\\exec-04e2ec7c-b3cc-4dfb-8441-8a1f72b61fd7.png",
+      "target": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\01_角色参考图\\林晚\\林晚_07_平静.png",
+      "bytes": 1942549,
+      "width": 941,
+      "height": 1672,
+      "sha256": "0e5f70a00194618a275795ba35671890d004a34d0ad6914c8e00a57378d4ced8",
+      "action": "新增目标文件，原件保留"
+    },
+    {
+      "id": "08",
+      "name": "林晚_08_疲惫.png",
+      "title": "疲惫状态",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a0ec08-df26-7b31-b679-a2bb3b37d538\\exec-60ddc487-154b-40ff-ab30-9b465dcce59f.png",
+      "target": "D:\\文档\\ChatGPT\\《49岁，我决定重新活一次》短剧\\49岁我决定重新活一次\\01_角色参考图\\林晚\\林晚_08_疲惫.png",
+      "bytes": 1928875,
+      "width": 941,
+      "height": 1672,
+      "sha256": "ba768de1078599b424a0de66271ee7d35b3921bb6a540ee9a7a9db9085ea52e0",
+      "action": "新增目标文件，原件保留"
+    }
+  ]
+}

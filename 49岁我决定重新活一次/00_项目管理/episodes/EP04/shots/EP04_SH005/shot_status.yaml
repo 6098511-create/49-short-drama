@@ -1,0 +1,265 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP04
+shot_id: EP04_SH005
+sequence: 5
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V3_handwritten_mobile
+storyboard_fingerprint:
+  path: EP04/02_分镜/EP04_正式分镜表.md
+  path_base: content_root
+  sha256: 260076e006de0b88740edc096d8df3d42e2dcc7dfd1581bee8f65d48c8d748d8
+previous_shot_id: EP04_SH004
+next_shot_id: EP04_SH006
+requirements:
+  description: 在「技能」栏填写自己的技能（中文后期合成）。
+  framing: 手部特写
+  planned_duration_s: 4.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: LW-C01
+    expected_visible_features: []
+  scene:
+    scene_id: SC-C
+    state_revision: null
+    story_time: 承接EP03同日近午→次日
+    lighting: null
+    anchors: []
+  props:
+  - prop_id: black_phone
+    quantity: 1
+    appearance: 黑色智能手机
+    position: 按分镜
+    state_in: null
+    state_out: null
+    visibility_requirement: 按景别及分镜要求
+  forbidden_props:
+  - 笔记本电脑
+  - 键盘
+  - 鼠标
+  action:
+    start_state: null
+    expected_change: 在「技能」栏填写自己的技能（中文后期合成）。
+    end_state: null
+  text:
+    generated_readable_text_allowed: false
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#STORYBOARD
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+  source_fields:
+    镜头编号: EP04_05
+    时长: 4s
+    景别: 手部特写
+    画面内容: 在「技能」栏填写自己的技能（中文后期合成）。
+    台词: —
+    音效: 笔尖沙沙
+    服装道具: 同上；纸/本子；笔
+    参考图: 林晚_01_v2；SC-C_01
+  visibility_note: 02-05手部特写鞋/包/箱可画外；01/06/07/11/12按新版首帧报告核对。
+assets:
+- asset_id: EP04_first_frame_09ad5d3019_7ffef296
+  kind: first_frame
+  path: EP04/03_首帧/_archive_电脑版旧剧情/EP04_05.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 7ffef296a4319e01718d420d877b69f11f30a9f0104efabf3780648c32e94de2
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1072
+    height: 1920
+  size_bytes: 2759928
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP04_first_frame_0ed326f119_aaecc48a
+  kind: first_frame
+  path: EP04/03_首帧/_stale_旧剧情/EP04_05.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: aaecc48a22270bee088e9560aafb870429e11b69e37dca7cb0fe765b8a15342b
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: historical
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1072
+    height: 1920
+  size_bytes: 2805052
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP04_first_frame_1561452344_8278541c
+  kind: first_frame
+  path: EP04/03_首帧/EP04_05.png
+  path_base: content_root
+  version_label: null
+  story_revision: V3_handwritten_mobile
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 8278541c36af6a18d0204c32ffa81c71904e522894c73a5110310d02317e19bb
+  presence: present
+  qc_status: needs_recheck
+  adoption: confirmed
+  applicability: current
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  - episodes/EP04/episode_status.yaml#S3_REPORT
+  supersedes_asset_id: null
+  technical:
+    width: 1072
+    height: 1920
+  size_bytes: 2493018
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP04_video_f9786aa45d_674beb03
+  kind: video
+  path: EP04/04_视频镜头/EP04_05_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: historical_computer
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 674beb0369a53754214ba6badc3016cbe0ebd9932c404864f282288a96ccfff7
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: historical
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  - episodes/EP04/episode_status.yaml#OLD_LOCK
+  supersedes_asset_id: null
+  technical:
+    width: 1076
+    height: 1924
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 7458857
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 仅历史电脑版锁定；当前剧情复用另据S3_REPORT
+- asset_id: EP04_video_0d4545d7ff_1e7b74fd
+  kind: video
+  path: EP04/04_视频镜头/EP04_05_video_v2.mp4
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 1e7b74fd2b7dcf783a33f418575c5e282e1b877485ce9cca5da1c1f8a5b44642
+  presence: present
+  qc_status: needs_recheck
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 1076
+    height: 1924
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 5831967
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  notes: 文件已存在；版本名不能证明手机剧情内容、父首帧或当前采用，需新版S4证据
+selected_assets:
+  first_frame:
+    asset_id: EP04_first_frame_1561452344_8278541c
+    decision_evidence_ids:
+    - episodes/EP04/episode_status.yaml#S3_REPORT
+  video:
+    asset_id: null
+    decision_evidence_ids: []
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP04_video_f9786aa45d_674beb03
+  - EP04_video_0d4545d7ff_1e7b74fd
+  asset_sha256s:
+  - 674beb0369a53754214ba6badc3016cbe0ebd9932c404864f282288a96ccfff7
+  - 1e7b74fd2b7dcf783a33f418575c5e282e1b877485ce9cca5da1c1f8a5b44642
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues:
+- id: EP04_SH005_VIDEO_ADOPTION
+  severity: review
+  scope: EP04_SH005
+  description: 新版视频已存在，但缺少新版S4验收及正式采用证据；不按最大版本号自动选择
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  - episodes/EP04/episode_status.yaml#OLD_LOCK
+  status: open
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP04/02_分镜/EP04_正式分镜表.md
+  path_base: content_root
+  locator: EP04_05
+  source_sha256: 260076e006de0b88740edc096d8df3d42e2dcc7dfd1581bee8f65d48c8d748d8
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP04_SH005
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP04/episode_status.yaml#SCAN
+  - episodes/EP04/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

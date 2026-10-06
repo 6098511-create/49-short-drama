@@ -1,0 +1,273 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP01
+shot_id: EP01_SH002
+sequence: 2
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+previous_shot_id: EP01_SH001
+next_shot_id: EP01_SH003
+requirements:
+  description: 丈夫站在桌边，视线落下；林晚只从画外问他。
+  framing: 近景
+  planned_duration_s: 4.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: null
+    expected_visible_features: []
+  - character_id: HZ
+    identity_reference_id: HZ_IDENTITY
+    costume_id: null
+    expected_visible_features:
+    - 丈夫；林晚画外声
+  scene:
+    scene_id: SC-A
+    state_revision: null
+    story_time: 生日傍晚→次日→手续办妥后搬离
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  source_fields:
+    字段: 内容
+    '---': '---'
+    镜头编号: EP01_02
+    时长: '4'
+    场景: SC-A 婚姻时期住宅餐厅／接上一镜
+    人物: 丈夫；林晚画外声
+    景别: 近景
+    机位: 沿桌左侧站位拍丈夫，同一人物轴线侧，不跨轴、不随机镜像空间
+    画面内容: 丈夫站在桌边，视线落下；林晚只从画外问他。
+    人物动作: 丈夫停顿后轻轻应声，目光不抬；不递笔，不催促。
+    人物表情: 沉默、回避冲突，无冷笑或反派表演。
+    对白: 林晚（画外）：想好了？／丈夫：嗯。
+    旁白: 无
+    环境音: 同一室内底噪；轻微衣料声
+    首帧生成提示词: 9:16竖屏，写实暖灰自然光，SC-A餐厅相同生日傍晚和人物轴线。丈夫普通衣着，近景，垂下目光，手已收回，背景仍为同一餐厅。必须等待丈夫固定参考图确认后引用，当前不得执行此提示词随机生成正脸。无文字水印。
+    视频动作提示词: 固定近景。画外传来“想好了？”，丈夫停顿一下，低声回答“嗯”，目光保持向下。两句不重叠，不做大动作。
+    引用的角色参考图: 无可用文件：丈夫固定角色参考图尚未建立；林晚仅画外发声，不入画
+    引用的场景参考图: 02_场景参考图/婚姻时期住宅/SC-A_01_餐厅全景.png
+    生成难度: 中；当前缺丈夫固定参考，暂不可生成
+    连续性注意事项: 00:06—00:10。保留与01同一站位、外套及灯光。丈夫参考图确认前禁止生成本镜首帧和视频，不以文字重新随机选脸。02不新增离婚原因、外遇或暴力设定。
+assets:
+- asset_id: EP01_first_frame_d1c6adb05a_838bd70c
+  kind: first_frame
+  path: EP01/03_首帧/EP01_02.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 838bd70c9f98788b57398cf1d3afcda64e44dfe6ef632580684d205305bf3c43
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 941
+    height: 1672
+  size_bytes: 1864671
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_first_frame_ef4fb39c8d_0ca7f328
+  kind: first_frame
+  path: EP01/03_首帧/EP01_02_v2.png
+  path_base: content_root
+  version_label: v2
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 0ca7f3286059560b8033316849bd0e75ef5c426354b62260695f1dde20a25861
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 941
+    height: 1672
+  size_bytes: 1989008
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_video_3967165799_86b8ab80
+  kind: video
+  path: EP01/04_视频镜头/EP01_02_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 86b8ab809ef55a3f26ea47049e4389f18f5bc96a8d1ebb490fe54f52dd982316
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#LOCK
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1916
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 5489133
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP01_voice_584349ae68_a1bb478f
+  kind: voice
+  path: EP01/05_配音/01_正式语音素材/EP01_02_丈夫_嗯.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: a1bb478f1d018f87d9dc5bb9d418e582eba31b72658871986f064de5656925fa
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: null
+    height: null
+    fps: null
+    frame_count: null
+    duration_s: 0.65
+    video_codec: null
+    pixel_format: null
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: pcm_s16le
+  size_bytes: 124844
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: unverified
+- asset_id: EP01_voice_da74000b6d_13729592
+  kind: voice
+  path: EP01/05_配音/01_正式语音素材/EP01_02_林晚_想好了.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 13729592f121f56fb8c77b7c96a53651a4de71b1fbf5afd4b396dcd23f467ed9
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: null
+    height: null
+    fps: null
+    frame_count: null
+    duration_s: 1.0
+    video_codec: null
+    pixel_format: null
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: pcm_s16le
+  size_bytes: 192044
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: unverified
+selected_assets:
+  first_frame:
+    asset_id: null
+    decision_evidence_ids: []
+  video:
+    asset_id: EP01_video_3967165799_86b8ab80
+    decision_evidence_ids:
+    - episodes/EP01/episode_status.yaml#LOCK
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP01_video_3967165799_86b8ab80
+  - EP01_voice_584349ae68_a1bb478f
+  - EP01_voice_da74000b6d_13729592
+  asset_sha256s:
+  - 86b8ab809ef55a3f26ea47049e4389f18f5bc96a8d1ebb490fe54f52dd982316
+  - a1bb478f1d018f87d9dc5bb9d418e582eba31b72658871986f064de5656925fa
+  - 13729592f121f56fb8c77b7c96a53651a4de71b1fbf5afd4b396dcd23f467ed9
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  locator: EP01_02
+  source_sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP01_SH002
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized

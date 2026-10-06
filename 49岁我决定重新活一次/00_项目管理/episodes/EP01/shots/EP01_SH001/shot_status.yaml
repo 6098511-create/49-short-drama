@@ -1,0 +1,251 @@
+schema_version: '1.0'
+record_type: shot
+episode_id: EP01
+shot_id: EP01_SH001
+sequence: 1
+updated_at: '2026-10-04T21:39:04+08:00'
+story_revision: V1
+storyboard_fingerprint:
+  path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+previous_shot_id: null
+next_shot_id: EP01_SH002
+requirements:
+  description: 小蛋糕在林晚面前，她抬眼迎向丈夫；白色文件被推到她面前，生日的期待被打断。
+  framing: 中近景
+  planned_duration_s: 6.0
+  characters:
+  - character_id: LW
+    identity_reference_id: LW_IDENTITY_V2
+    costume_id: null
+    expected_visible_features: []
+  - character_id: HZ
+    identity_reference_id: HZ_IDENTITY
+    costume_id: null
+    expected_visible_features:
+    - 林晚；丈夫仅手臂及画外声
+  scene:
+    scene_id: SC-A
+    state_revision: null
+    story_time: 生日傍晚→次日→手续办妥后搬离
+    lighting: null
+    anchors: []
+  props: []
+  forbidden_props: []
+  action:
+    start_state: null
+    expected_change: null
+    end_state: null
+  text:
+    generated_readable_text_allowed: null
+    postproduction_text_items: []
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  source_fields:
+    字段: 内容
+    '---': '---'
+    镜头编号: EP01_01
+    时长: '6'
+    场景: SC-A 婚姻时期住宅餐厅／生日傍晚
+    人物: 林晚；丈夫仅手臂及画外声
+    景别: 中近景
+    机位: 桌面略上方平视林晚，固定机位；镜头从桌子近端朝她所在远端座位，丈夫在画面左侧
+    画面内容: 小蛋糕在林晚面前，她抬眼迎向丈夫；白色文件被推到她面前，生日的期待被打断。
+    人物动作: 林晚轻轻抬眼；丈夫已在桌边，仅单手将文件沿桌面推至她面前后收手。
+    人物表情: 林晚从一点期待变为停顿与错愕，情绪收住。
+    对白: 林晚：你回来啦。／丈夫：我们分开吧。
+    旁白: 无
+    环境音: 开门声作为画外前置声衔接；轻微室内底噪；纸张摩擦声
+    首帧生成提示词: 9:16竖屏，写实中国生活摄影，暖灰自然光，轻微胶片感，真实皮肤、适度景深，无水印、无乱码。凡林晚入画，必须引用已确认v2及本行指定角色库图片，锁定49岁林晚的脸型、五官比例、眼鼻嘴、发际线和黑色低马尾，不重新设计面孔，不明显年轻化。空间严格参考SC-A：长方木桌、白色圆罩吊灯、画面左后方玄关门洞与棕色入户门、右后方餐边柜、右侧窗，家具关系不变。生日傍晚；林晚穿米白圆领针织衫和深灰长裤坐在远端。首帧她刚抬眼，蛋糕在距她约20厘米的左前方，单根细蜡烛点燃；右前方留出纸张位置。画面左缘只露丈夫朴素外套袖口及一只手，白色文件尚在推入起点。纸上不生成文字，后期添加离婚协议抬头。
+    视频动作提示词: 固定镜头。林晚轻轻抬眼说“你回来啦”，随即丈夫从画外说“我们分开吧”。一只手把文件平缓推向她后收回，她停住。不要同时移动其他道具，不做复杂手部交接。
+    引用的角色参考图: 01_角色参考图/林晚/林晚_01_固定标准角色图_v2.png；01_角色参考图/林晚/林晚_05_自然微笑.png；丈夫无已确认图，仅露手臂，正脸不得入画
+    引用的场景参考图: 02_场景参考图/婚姻时期住宅/SC-A_01_餐厅全景.png
+    生成难度: 中：推纸接触、单手结构和短对白
+    连续性注意事项: 00:00—00:06。0—1秒问候，1—2.8秒丈夫提出分开，约第2秒纸到位，前3秒必须完成冲突。门锁声不再增加完整走路进场。蛋糕为EP01可移动道具，开场放在林晚近前；01—04其位置锁定。文件在她右前方。离婚协议文字后期加；丈夫袖口与后续确认造型保持一致。
+assets:
+- asset_id: EP01_first_frame_4abafb1d3d_ed7427c1
+  kind: first_frame
+  path: EP01/03_首帧/EP01_01.png
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: ed7427c1fb873792f24b2a718ec5b04e8db7bd8c6486010dc2c827d821d8074f
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: 941
+    height: 1672
+  size_bytes: 1779201
+  technical_verification: PNG_IHDR_only
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+- asset_id: EP01_video_af0da1ecca_1d16062c
+  kind: video
+  path: EP01/04_视频镜头/EP01_01_video_v1.mp4
+  path_base: content_root
+  version_label: v1
+  story_revision: V1
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 1d16062c53d44d0ffef1e176f311ed79b12eec9beaed5d926f24f9dbc3e76492
+  presence: present
+  qc_status: needs_recheck
+  adoption: locked
+  applicability: current
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#LOCK
+  supersedes_asset_id: null
+  technical:
+    width: 1080
+    height: 1916
+    fps: 24/1
+    frame_count: 121
+    duration_s: 5.041667
+    video_codec: h264
+    pixel_format: yuv420p
+    frame_rate_mode: unknown
+    has_audio: false
+    audio_sample_rate: null
+    audio_channels: null
+    audio_codec: null
+  size_bytes: 4497882
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  adoption_note: 按已有明确文件名清单登记；历史报告未提供该文件SHA-256，视觉未重验
+- asset_id: EP01_voice_8828f205c7_8ddbf074
+  kind: voice
+  path: EP01/05_配音/01_正式语音素材/EP01_01_丈夫_我们分开吧.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: 8ddbf0748f364cfa16201b95650dee798c6468dc76bb3b9c945b8e382965f8dc
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: null
+    height: null
+    fps: null
+    frame_count: null
+    duration_s: 1.15425
+    video_codec: null
+    pixel_format: null
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: pcm_s16le
+  size_bytes: 221660
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: unverified
+- asset_id: EP01_voice_87df73a42b_bcffae16
+  kind: voice
+  path: EP01/05_配音/01_正式语音素材/EP01_01_林晚_你回来了.wav
+  path_base: content_root
+  version_label: null
+  story_revision: null
+  parent_asset_ids: []
+  input_fingerprints: []
+  sha256: bcffae1609122e86e8e56b71888a0340356bc435a46522169ed80ffa80975099
+  presence: present
+  qc_status: unchecked
+  adoption: candidate
+  applicability: unknown
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  supersedes_asset_id: null
+  technical:
+    width: null
+    height: null
+    fps: null
+    frame_count: null
+    duration_s: 0.367833
+    video_codec: null
+    pixel_format: null
+    frame_rate_mode: unknown
+    has_audio: true
+    audio_sample_rate: 48000
+    audio_channels: 2
+    audio_codec: pcm_s16le
+  size_bytes: 70702
+  technical_verification: ffprobe_show_streams_show_format
+  identity_binding: 本次路径与SHA-256快照；历史确认是否适用于相同字节内容需另核对
+  voice_provenance: unverified
+selected_assets:
+  first_frame:
+    asset_id: null
+    decision_evidence_ids: []
+  video:
+    asset_id: EP01_video_af0da1ecca_1d16062c
+    decision_evidence_ids:
+    - episodes/EP01/episode_status.yaml#LOCK
+  voice_asset_ids: []
+technical_target:
+  width: null
+  height: null
+  fps: null
+  frame_count: null
+  duration_s: null
+  has_audio: null
+  source_evidence_ids: []
+qc_results:
+- id: PARAMETER_INVENTORY
+  rule_id: VIDEO-001
+  rule_version: '1.0'
+  asset_ids:
+  - EP01_video_af0da1ecca_1d16062c
+  - EP01_voice_8828f205c7_8ddbf074
+  - EP01_voice_87df73a42b_bcffae16
+  asset_sha256s:
+  - 1d16062c53d44d0ffef1e176f311ed79b12eec9beaed5d926f24f9dbc3e76492
+  - 8ddbf0748f364cfa16201b95650dee798c6468dc76bb3b9c945b8e382965f8dc
+  - bcffae1609122e86e8e56b71888a0340356bc435a46522169ed80ffa80975099
+  basis_fingerprints: []
+  result: needs_recheck
+  severity: review
+  method: ffprobe_show_streams_show_format
+  checked_at: '2026-10-04T21:39:04+08:00'
+  reviewer: ShortDrama_Project_Manager
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  exception_id: null
+  notes: 元数据已实测；不代表输出标准、视觉或动作验收通过，完整解码与逐帧帧率模式未检查
+accepted_exceptions: []
+open_issues: []
+evidence:
+- id: STORYBOARD_ROW
+  kind: document_report
+  source_path: EP01/02_分镜/EP01_正式分镜表.md
+  path_base: content_root
+  locator: EP01_01
+  source_sha256: 35b084f230f27f178822bce6c5b809a4e4557dc1009be7cbd5544ddbc021100d
+  recorded_at: null
+  observed_at: '2026-10-04T21:39:04+08:00'
+  claim: 逐镜要求原文；不等于当前画面已符合
+  applies_to_asset_ids: []
+  applies_to_story_revision: null
+  verification: reported
+change_log:
+- at: '2026-10-04T21:39:04+08:00'
+  scope: EP01_SH001
+  reason: 按用户要求初始化；只创建状态YAML，保留历史结论与本次只读测量的区别
+  evidence_ids:
+  - episodes/EP01/episode_status.yaml#SCAN
+  - episodes/EP01/episode_status.yaml#STORYBOARD
+  before: null
+  after: initialized
